@@ -1,0 +1,6 @@
+name: tech-practices
+title: Code of Technological Practices
+version: 0.1
+start_page: ROOT:introduccio.adoc
+nav:
+- modules/ROOT/nav.adoc

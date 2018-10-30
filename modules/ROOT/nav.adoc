@@ -1,0 +1,8 @@
+* xref:introduccio.adoc[Introducció i context]
+* xref:principis.adoc[Principis generals de sobirania tenològica]
+* xref:programari-lliure.adoc[Programari Lliure]
+* xref:administracio-publica.adoc[Programari Lliure i administració pública]
+* xref:interoperabilitat.adoc[Interoperabilitat, format i estàndards oberts]
+* xref:politica.adoc[Política sobre la sobirania tecnològica i directrius per la seva implementació]
+* xref:references.adoc[Referències]
+* xref:glossary:ROOT:glossary.adoc[Glossari]

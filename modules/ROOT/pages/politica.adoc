@@ -1,0 +1,602 @@
+= Política sobre sobirania tecnològica i directrius per a la seva implementació
+:experimental:
+:icons: font
+:page-partial:
+:source-highlighter: highlightjs
+
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+include::{partialsdir}/README.adoc[tag=metadata]
+
+== Principis i directrius
+
+La política referent a la sobirania tecnològica de l'Ajuntament es basa en els principis i directrius indicats en el Pla Barcelona Digital 2017–2020: Transició cap a la sobirania tecnològica, els estàndards de serveis digitals i el Codi de pràctiques tecnològiques.
+
+En línies generals, aquests principis consisteixen en:
+
+* L'ús d'estàndards oberts per a tots els serveis digitals.
+* La preferència pel programari lliure i la reutilització de recursos informàtics.
+* Un nou model relacional amb proveïdors i les comunitats de programari lliure.
+* Una política flexible de propietat intel·lectual.
+
+Comentem, a continuació, els principals elements d'aquesta política.
+
+La implementació d'aquests principis i directrius es durà a terme progressivament a través de la realització dels projectes de transformació digital i migració al programari lliure de l'Ajuntament i anirà a càrrec de l'IMI, que marcarà el ritme i permetrà la dedicació de recursos, la creació d'infraestructura i l'adquisició de competències per a aquesta finalitat. 
+D'aquesta manera, es farà la gestió del canvi que suposa l'aplicació d'aquesta política dins de l'organisme de manera iterativa a través de projectes concrets.
+Alguns projectes i la seva extensió (per exemple, Decidim Barcelona, Sentilo, BIMA) ja compliran més les directrius indicades a continuació, d'altres ho aniran aconseguint amb un procés d'implementació més progressiva.
+
+== Estàndards oberts i interoperabilitat
+
+Els serveis digitals de l'Ajuntament de Barcelona s'hauran d'implementar amb arquitectures comunes i obertes de serveis, informació i tecnologies. 
+Els serveis es construiran implementant solucions comunes per a la integració de sistemes i les seves interfícies. 
+Les solucions utilitzaran els estàndards oberts.
+
+[.policy]
+.Interoperabilitat
+****
+
+[.policy-summary]
+******
+Tots els serveis digitals de l'Ajuntament de Barcelona donaran suport a la interoperabilitat, basada principalment en l'ús d'estàndards i formats oberts.
+******
+[loweralpha]
+a.  Els requisits d'interoperabilitat de cada sistema, tant l'externa, que afecta la ciutadania, com la referent a l'intercanvi d'informació en processos interns, s'implementaran partint de formats i estàndards oberts, amb l'única excepció de sistemes ja desplegats la substitució dels quals no estigui encara planificada.
+b.  Es posarà un èmfasi especial en la interoperabilitat de cara al futur: cosa que garanteix que les dades en poder de l'Ajuntament podran ser utilitzades (explotades, modificades i augmentades) amb independència de quines aplicacions (i de quins proveïdors) s'utilitzin en un futur.
+c.  Quan es necessiti interoperar amb sistemes ja desplegats i que utilitzen formats o estàndards no oberts, s'estudiarà la possibilitat de modificar aquests sistemes per adaptar-los a l'ús d'estàndards oberts.
+d.  Les necessitats d'interoperabilitat de cada sistema que s'ha de desenvolupar o adquirir es detallaran en els plecs de la contractació. 
+Es poden donar dues situacions diferents:
+1.  En cas que una necessitat específica d'interoperabilitat quedi coberta per un estàndard obert acceptat internacionalment, els plecs de contractació esmentaran aquest estàndard pel seu nom i versió.
+2.  Quan una necessitat específica d'interoperabilitat no pugui ser resolta per un estàndard existent, es donarà en els documents tècnics que acompanyen els plecs de contractació una especificació completa de les dades, els protocols, les interfícies, els formats o els processos que s'utilitzaran. 
+Aquesta especificació ha de permetre la seva implementació sense recórrer a productes o proveïdors específics.
+e.  Com a cas concret de desplegament d'aquestes directrius d'interoperabilitat, vegeu per exemple la Política de gestió documental, (a http://ajuntament.barcelona.cat/arxiumunicipal/sites/default/files/InstruccioPoliticaGD_cat.pdf)
+****
+
+[.policy]
+.The use of free standards
+****
+
+[.policy-summary]
+******
+Els serveis digitals de l'Ajuntament utilitzaran de manera obligatòria estàndards oberts, i especialment, els continguts en el catàleg d'estàndards de la Norma tècnica d'interoperabilitat (desenvolupats sota el Reial Decret 4/2010) o els estàndards oberts acceptats internacionalment que actualitzin, substitueixin o complementin aquests estàndards. 
+Quan no hi hagi un estàndard obert aprovat per al format requerit es presentarà una proposta del format que es vol utilitzar, atenent al que estableix la normativa aplicable i als requisits per a estàndards oberts de l'IMI.
+******
+
+[loweralpha]
+. És estàndard obert aquell que reuneix les condicions següents:
+* Que sigui públic i la seva utilització estigui disponible de manera gratuïta o a un cost que no suposi una dificultat d'accés.
+* Que tingui un ús i una aplicació que no estiguin condicionats al pagament d'un dret de propietat intel·lectual o industrial.
+
+. Els formats i estàndards oberts seran concebuts com el canal estàndard d'intercanvi d'informació amb la ciutadania, i no com un mètode alternatiu o complementari d'opcions no obertes. 
+En cap cas no es requerirà del ciutadà una sol·licitud expressa o gestió addicional per exercir el seu dret a utilitzar formats i estàndards oberts.
+
+. L'Ajuntament no pot en cap cas obligar els ciutadans a comprar o utilitzar sistemes de proveïdors específics per accedir als serveis públics. 
+Aquest fet equivaldria a garantir als esmentats proveïdors una situació de monopoli sancionat per l'autoritat pública.
+****
+
+[.policy]
+.Identificació de formats i estàndards
+****
+
+[.policy-summary]
+******
+The IMI will maintain public lists of technical formats and standards in use, categorised as mandatory, priority or recommended.
+******
+
+[loweralpha]
+. Per facilitar l'especificació i la contractació de sistemes i solucions, l'IMI mantindrà una llista d'estàndards tècnics que hauran de ser utilitzats.
+. L'IMI mantindrà aquesta llista actualitzada, en relació tant amb l'evolució de la normativa nacional com amb l'evolució dels estàndards en l'àmbit internacional en el si de les corresponents entitats de normalització.
+. Alguns estàndards poden ser obligatoris per a certs usos i recomanats en altres casos.
+****
+
+[.policy]
+.Selecció d'estàndards
+****
+
+[.policy-summary]
+******
+L'elecció d'estàndards seguirà un procés obert i transparent d'elecció partint de les necessitats dels usuaris, la flexibilitat, la promoció de la lliure competència i lliure col·laboració i les implicacions per a la futura interoperabilitat. 
+Aquest procés haurà de ser aprovat formalment. Les àrees que tinguin el seu propi marc legal seguiran estàndards específics (per exemple, Geodata).
+******
+
+[loweralpha]
+. Es recomana seguir un procés de selecció formal, basat en la normativa nacional (RD 4/2010), el Marc Europeu d'Interoperabilitat (EIF) i els mètodes reconeguts en àmbit internacional, com el projecte europeu _Common Assessment Method for Standards and Specifications_ (CAMSS, _https://webgate.ec.europa.eu/fpfis/mwikis/idabc-camss/index.php/Main_Page_).
+
+. Els sectors específics mantindran les seves pròpies llistes. 
+Per exemple, per a Geodata, que té un marc molt regulat (http://www.bcn.cat/geoportal/es/estandards.html).
+****
+
+== Programari lliure i reutilització de recursos
+
+La política de l'Ajuntament respecte al programari lliure s'estableix per al profit més gran dels beneficis del model de desenvolupament del programari lliure, tant de cara a l'objectiu general de sobirania tecnològica com per motius econòmics i de qualitat tecnològica. 
+Per això, els principals elements d'aquest aspecte de la política de sobirania tecnològica de l'Ajuntament són:
+
+* Facilitar i promoure l'ús efectiu i eficient del programari lliure dins de l'Ajuntament.
+* Reutilitzar programari existent i facilitar la reutilització del programari de l'Ajuntament per part de tercers, tant entre administracions com per part d'altres persones i entitats (sota llicències lliures).
+* Migrar sistemes de l'Ajuntament a solucions lliures.
+* Contribuïu i participar en comunitats de programari lliure, enfortint en particular les comunitats locals.
+* Garantir el respecte dels drets de l'Ajuntament i de tercers, en especial dels desenvolupadors i dels membres de la comunitat de programari lliure.
+
+En disposar del codi font de les aplicacions de l'Ajuntament juntament amb els drets de reproducció, modificació i distribució inherents a les llicències lliures, es garanteix la independència de l'Ajuntament davant els proveïdors específics i el manteniment de cara al futur i la sostenibilitat dels sistemes municipals. 
+Així mateix, un sistema basat en programari lliure és particularment idoni quan es construeixen serveis que seran utilitzats per diverses entitats municipals i puguin ser compartits amb altres administracions, així com amb una comunitat més àmplia d'usuaris. 
+L'accés públic al codi font també és una garantia de transparència per a sistemes particularment importants o sensibles, com per exemple sistemes de votació electrònica o de càlcul d'impostos.
+
+Dins d'aquestes línies generals, els principals elements d'aquesta política, recollits en el xref:tech-practices:ROOT:aim-and-scope.adoc[Codi de pràctiques tecnològiques], s'exposen a continuació. Comentarem cada element amb més detall, aportant explicacions i orientacions per a la seva implementació.
+
+=== Directrius generals
+
+Els principis bàsics de programari lliure de l'IMI per complir els principis de sobirania tecnològica de la ciutat són:
+
+[loweralpha]
+. La compra pública d'eines i sistemes donarà preferència al programari lliure.
+. Tots els projectes de tecnologia municipals que desenvolupin programari internament o sota contracte, en la mesura possible, faran que aquest estigui disponible com a programari lliure.
+. Amb aquest objectiu, els projectes de desenvolupament interns es basaran per defecte en tecnologies obertes que permetin que el producte final sigui alliberat.
+. L'ús del programari lliure es farà de manera progressiva per a tots els sistemes i aplicacions municipals a mesura que s'implementi el Pla de migració a programari lliure de l'Ajuntament.
+
+Aquests principis es concreten en les següents directrius recollides en el xref:tech-practices:ROOT:aim-and-scope.adoc[Codi de pràctiques tecnològiques]:
+
+[.policy]
+.Acquisition
+****
+
+[.policy-summary]
+******
+L'adquisició i contractació pública d'eines i sistemes donarà preferència a l'ús de programari lliure per a tota l'arquitectura tècnica de les aplicacions i els serveis entregats, evitant dependències de sistemes i programari no lliures. 
+Es permetrà el lliurament i l'ús d'eines i sistemes no lliures només en circumstàncies excepcionals que es revisaran cas per cas, d'acord amb els criteris que s'indiquen a continuació.
+******
+
+[loweralpha]
+. Els contractes d'adquisició i desenvolupament de serveis digitals, incloent l'adaptació de sistemes ja existents, hauran d'optar per solucions i serveis basats en tecnologies lliures.
+. Serà acceptable l'ús de programari propietari únicament en aquells casos en què:
++
+--
+
+* no existeixi cap solució oberta que compleixi els requisits necessaris;
+* l'adaptació d'una d'existent fins a aconseguir el compliment dels requisits no sigui viable, i
+* la construcció d'una nova solució, que es lliurarà sota llicència oberta, no sigui viable.
+
+Entenent que la no viabilitat, tant per aquest punt com pel justament anterior, està basada en raons tècniques o en els recursos necessaris, o que l'increment en el termini de temps en què estarà disponible la solució impedeixi l'èxit del projecte.
+--
+
+.  El procés per determinar si l'esmentada excepció és aplicable es detalla en l'epígraf “Preparació i avantprojectes”.
+
+.  En aquells casos en els quals, d'acord amb les condicions excepcionals abans esmentades, no es pugui proposar una solució global completament oberta, s'afavorirà una arquitectura i una selecció de components que minimitzin les dependències sobre elements no lliures.
+****
+
+[.policy]
+.Alliberament
+****
+
+[.policy-summary]
+******
+Els projectes de desenvolupament de serveis digitals tant interns com externs hauran de desenvolupar-se des dels seus inicis amb vista al seu alliberament, seguint les millores pràctiques de desenvolupament de programari lliure, i es basaran en tecnologies obertes que permetin que el producte final pugui alliberar-se. La seva documentació, disseny i altres elements (sons, tipografies, etc.) també seran publicats sota llicències obertes.
+******
+
+[loweralpha]
+. La voluntat de publicació dels projectes de programari que es desenvolupin, de manera interna o per encàrrec, exigeix tenir en compte des de l'inici els estàndards de qualitat i les pràctiques comunes de desenvolupament dels projectes de programari lliure amb èxit. 
+En el subapartat “Projectes” es detallen alguns dels elements que s'hauran de reflectir en els plecs de contractació per garantir aquests requisits.
+
+. Així mateix, per evitar barreres a l'hora de l'alliberament, ha d'evitar-se l'ús de subcomponents no lliures i crear dependències sobre components, plataformes i eines de desenvolupament, administració i monitorització no lliures, seguint la resta de recomanacions d'aquest document (vegeu especialment l'epígraf “Desenvolupament”).
+
+. L'IMI estableix i mantindrà un pla d'alliberament i de migració cap al programari lliure, el desplegament del qual facilitarà la implementació progressiva de les millores pràctiques de desenvolupament i ús de tecnologies obertes en els projectes de serveis digitals de l'Ajuntament.
+
+. Els criteris que se seguiran per valorar l'alliberament d'un projecte inclouen: que el producte respongui a una necessitat general (i no particular de l'Ajuntament de Barcelona), que en algun aspecte es compari favorablement amb altres projectes lliures ja existents que resolguin el mateix problema, que l'Ajuntament pugui realitzar-lo de manera legítima de cara als drets de tercers, que el producte pugui executar-se sobre plataformes lliures i que tingui la qualitat tècnica suficient i la documentació necessària perquè sigui utilitzat per tercers.
+****
+
+[.policy]
+.Reutilització
+****
+
+[.policy-summary]
+******
+En l'adquisició de programari s'incentivarà la reutilització de solucions ja existents. 
+En els desenvolupaments en què participi l'Ajuntament s'intentarà, més enllà de la publicació sota llicències lliures, oferir facilitats tècniques i organitzatives per a la reutilització per part de tercers. 
+En els casos en què no sigui possible alliberar el programari propietat de l'Ajuntament i de les entitats associades sota llicències lliures (per raons tècniques o legals), igualment es posarà a disposició d'altres administracions sense contraprestació i sense necessitat de conveni d'acord amb la normativa aplicable.
+******
+
+[loweralpha]
+. Sempre que sigui possible, i després de la corresponent recerca prèvia, els projectes reutilitzaran o estendran eines lliures ja existents, per reduir costos de manteniment i enfortir ecosistemes oberts, abans de considerar la creació d'alternatives paral·leles. 
+Això permetrà en alguns casos reduir costos de desenvolupament, i en qualsevol cas afavoreix l'enfortiment dels ecosistemes oberts, la reducció dels costos de manteniment i la construcció de solucions de més qualitat i durabilitat.
+
+. Es donarà prioritat a la reutilització de tecnologies i components lliures ja en ús per part de l'Ajuntament. Això permet abaratir costos i generar consistència en l'experiència de l'usuari.
+
+. Per facilitar la reutilització del codi produït, serà publicitat per part de l'Ajuntament per mitjans que incloguin:
+* Un directori de projectes on s'exposin els principals projectes de l'Ajuntament, amb enllaços al repositori del codi, encara que aquest es trobi en diferents plataformes, i a tots els elements relacionats amb el desenvolupament i la governança d'aquests. Aquest directori es troba en línia a https://ajuntamentdebarcelona.github.io.
+* Un repositori de codi centralitzat (que es detalla a l'epígraf “Desenvolupament”).
+
+. Recordem que la normativa vigent (Llei 40/2015, art. 157-158) obliga a posar els sistemes de la seva propietat a disposició d'altres administracions que ho sol·licitin, en les condicions indicades.
+****
+
+[.policy]
+.Projectes mancomunats
+****
+
+[.policy-summary]
+******
+Quan sigui convenient, s'estudiarà la possibilitat de col·laborar amb altres administracions públiques i entitats en el desenvolupament de projectes tecnològics del seu interès, compartint els costos i afavorint la interoperabilitat.
+******
+
+[loweralpha]
+. La mutualització o mancomunitat consisteix en la col·laboració estreta entre governs municipals i altres administracions o entitats per al desenvolupament en comú d'eines per al benefici de tots.footnote:[Vegeu, per exemple, el projecte CommunesPlone: https://joinup.ec.europa.eu/community/osor/case/networks-effects-plone-belgium-and-beyond] Els participants comparteixen necessitats i especificacions, costos, recursos econòmics i equips de desenvolupament, així com el codi desenvolupat.
+
+. Per afavorir la mancomunitat de projectes es podrà utilitzar la xarxa de municipis Localret i altres xarxes en l'àmbit nacional i internacional.
+
+. Per compartir la informació necessària amb altres administracions i entitats per promoure la mancomunitat, l'Ajuntament publicarà periòdicament plans d'adquisició de programari (full de ruta) on es defineixin les previsions de compra o desenvolupament per als mesos o anys següents.
+****
+
+=== Projectes 
+
+L'ús de programari lliure i les corresponents metodologies de desenvolupament i tecnologies obertes té implicacions particulars per a la preparació i gestió de projectes de serveis digitals.
+
+Els avantprojectes (per exemple, dissenys previs del sistema que es vol construir) són una peça clau en el procés d'adquisició i contractació pública de l'IMI. Els seus informes hauran sempre d'incloure la consideració d'opcions tecnològiques basades en tecnologies obertes.
+
+Aquests principis es concreten en les directrius següents:
+
+[.policy]
+.Preparació i avantprojectes
+****
+
+[.policy-summary]
+******
+En la fase de preparació de contractes s'ha de demostrar que s'ha fet una recerca exhaustiva de possibles solucions ja existents i reutilitzables, tant en àmbit nacional com en repositoris públics internacionals.
+******
+
+[loweralpha]
+. La fase de preparació estudia el mercat i estableix les especificacions tecnològiques i, si escau, les tecnologies recomanades per a futurs projectes municipals de desenvolupament o implantació. Freqüentment aquesta preparació es fa dins de l'abast d'un avantprojecte.
+
+. S'hauran de buscar alternatives en, almenys, els repositoris de programari lliure següents: GitHub, SourceForge,https://www.openhub.net/[https://www.openhub.net/] JoinUp i el CTT, d'acord amb el que s'indica en el RD 4/2010 i la Llei 40/2015.
+
+. En el cas de proposar solucions basades en programari propietari, s'haurà de demostrar que es compleixen les condicions excepcionals enunciades en l'epígraf “Adquisició” i que, per tant, l'ús de programari propietari és l'única opció viable. 
+Per a això, l'avantprojecte haurà d'incloure un informe específic que:
+* Demostri la qualitat i el rigor de la prospecció feta de solucions basades en programari lliure. 
+El mateix contracte de l'avantprojecte pot esmentar algunes de les alternatives que és obligatori estudiar si l'IMI té coneixement d'aquestes.
+* Demostri la valoració que s'hagi dut a terme respecte a l'opció de construcció de noves solucions, incloent una estimació del seu cost.
+* Inclogui una simulació de quins requisits són els que obliguen a incorporar programari propietari i a quins requisits o funcions s'hauria de renunciar per construir una solució alternativa sense cap programari propietari.
+* Especificar el possible impacte en la interoperabilitat del sistema amb la resta de sistemes i plataformes i el possible _vendor lock-in_ que pugui generar. 
+També haurà de proposar accions per mitigar aquests efectes.
+* En el cas que la solució proposada amb programari propietari imposi restriccions de qualsevol tipus a la construcció o a l'evolució d'altres sistemes d'informació o plataformes tècniques partint de solucions lliures, aquest informe justificatiu de l'ús de programari propietari haurà de tenir en compte totes les possibles repercussions.
+
+. Es treballarà amb vista a establir un comitè d'experts en tecnologies lliures que pugui tant assessorar en l'elaboració i valoració dels avantprojectes com determinar en cas que es proposin tecnologies propietàries per a l'admissibilitat de les condicions excepcionals al·legades.
+
+. L'avantprojecte haurà d'estudiar la maduresa, l'estat de manteniment i la sostenibilitat esperada dels components de programari proposatsfootnote:[Per exemple, seguint el model de l'Open Preservation Foundation, en línia a http://openpreservation.org/technology/principles/software-maturity/]. 
+En un futur l'IMI pot posar a disposició dels projectes equips i recursos per oferir suport a aquesta tasca.
+
+. Una funció important de la fase de preparació serà, quan es preseleccionin projectes lliures per ser ampliats o adaptats, investigar els requisits legals i tècnics per participar en aquests projectes. 
+Per a això es podrà contactar amb els mantenidors i els titulars legals d'aquests projectes, o amb desenvolupadors destacats d'aquests. 
+En el resultat d'aquesta fase s'inclourà una descripció de les obligacions que deriven d'aquests requisits, per especificar-la en el plec de la contractació.
+
+. En els projectes que estan subjectes a regulació harmonitzada, s'ha de demostrar en particular que la recerca de solucions d'implementació reutilitzables s'ha dut a terme com a mínim en l'àmbit de la UE.
+****
+
+[.policy]
+.Especificacions tècniques i funcionals
+****
+
+[.policy-summary]
+******
+Els projectes proposats no han d'incloure cap especificació que impedeixi proposar solucions amb tecnologia oberta i no han d'esmentar productes ni proveïdors específics excepte en casos de compatibilitat amb tecnologies existents, d'acord amb criteris indicats a la _Guia sobre sobirania tecnològica_. 
+L'arquitectura, els requeriments d'interoperabilitat i el dret i la capacitat de poder modificar i reutilitzar el programari dels sistemes i serveis seran considerats característiques i prescripcions tècniques.
+******
+
+[loweralpha]
+.  El desenvolupament orientat al programari lliure no s'implementarà simplement incloent aquest terme, sinó a través de la claredat en els requisits funcionals, tècnics i legals que permeten i fins i tot promouen l'ús de tecnologies obertes.
+
+.  S'evitaran aquells requisits tècnics que determinin solucions específiques, però que poden no ser necessaris en una anàlisi més profunda de les necessitats subjacents.
+
+.  Sempre que sigui possible, en els plecs de contractació es donarà una especificació funcional i tècnica detallada del sistema que es necessita desenvolupar o adquirir. 
+Això no va en detriment que durant el desenvolupament, i en aplicació d'una metodologia àgil i iterativa, aquestes especificacions puguin refinar-se, enriquir-se o adaptar-se de comú acord amb el client.
+
+.  En general, en els plecs de contractació de noves solucions no s'ha d'anomenar un producte (i molt menys un proveïdor) de programari particular i, en tot cas, haurà d'afegir la frase "o equivalent”.
+
+.  Es permetrà l'excepció (és a dir, l'especificació de criteris que impedeixen l'oferta de tecnologies lliures o la referència a productes privatius particulars) únicament per necessitat de compatibilitat amb tecnologies preexistents la substitució de les quals requereixi una planificació a més llarg termini (com s'especifica a l'epígraf “Preparació i avantprojectes”).
+
+.  No obstant això, la compatibilitat amb productes privatius contractats en concursos anteriors no constitueix una circumstància excepcional admissible en general, ja que això perpetuaria la dependència d'un sol proveïdor i evitaria poder prendre decisions de compra imparcials i basades exclusivament en les necessitats de l'Ajuntament.
+
+.  En canvi, no suposa cap problema esmentar en els plecs productes amb llicència lliure específics, perquè en aquest cas no s'estaria contraient cap dependència amb un proveïdor específic.
+****
+
+[.policy]
+.Càlcul de costos
+****
+
+[.policy-summary]
+******
+Tota decisió sobre l'adquisició de tecnologies tindrà en compte el cost total del sistema sobre la vida útil del servei a llarg termini (TCO), incloent els costos ocults (per exemple, costos de sortida per reemplaçar una tecnologia en un futur quan els formats o les interfícies no siguin estàndards) així com els beneficis nets socials.
+******
+
+[loweralpha]
+. Els càlculs econòmics han de ser específics a les necessitats del projecte però també han de tenir en compte els _spill over effects_ (costos i beneficis secundaris), per exemple, a causa de la reutilització de tecnologia per part de les administracions públiques i l'adquisició de competències internes.
+
+. S'hauran de tenir en compte els costos ocults (per exemple, costos de sortida, en cas d'implementar solucions propietàries o no estàndards), per a així incentivar la contractació de productes que compleixin els estàndards oberts i presentin una adequada interoperabilitat en el futur.
+
+. Les decisions també hauran de tenir en compte la maximització dels beneficis nets econòmics i socials per a l'economia local i la societat en general a mitjà i llarg termini.
+****
+
+[.policy]
+.Contractació de projectes i serveis
+****
+
+[.policy-summary]
+******
+Els contractes per a projectes nous o ampliacions de projectes existents utilitzaran clàusules model basades en aquests principis, fins i tot per a avantprojectes en els quals es fa una preselecció de tecnologies, així com en acords marcs de contractació o contractació per lots. 
+Aquestes clàusules exigiran l'ús de solucions basades en tecnologies lliures, tret de casos excepcionals que es detallen en l'epígraf "Adquisició".
+******
+
+[loweralpha]
+. L'IMI elaborarà aquestes clàusules model per a la _Guia de contractació tecnològica_ i les inclourà en forma d'annex.
+. Les clàusules no hauran d'incloure condicions contradictòries amb els principis indicats aquí, per exemple, el manteniment de la confidencialitat sobre el codi publicat en un repositori públic (com a programari lliure o no).
+****
+
+[.policy]
+.Millors pràctiques de desenvolupament
+****
+
+[.policy-summary]
+******
+El desenvolupament d'infraestructures i serveis digitals seguirà les millors pràctiques en metodologies de desenvolupament de programari lliure, utilitzant per defecte els mètodes _agile_ que s’apliquen a l'IMI.
+******
+
+[loweralpha]
+.  El codi font serà gestionat de manera efectiva en sistemes moderns de control de versions que permetin recompondre l'historial de les contribucions, una gestió senzilla de les contribucions alienes, l'existència de diverses branques (principal, manteniment, branques específiques per desenvolupar funcionalitats, etc.) i la bifurcació del projecte en cas necessari.
+
+.  L'Ajuntament disposarà d'un espai d'organització propi en una plataforma en línia de publicació i gestió de projectes de programari. 
+Aquest espai contindrà un repositori per a cada projecte de programari en què s'hagi participat (directament o a través de contractes), fins i tot si el desenvolupament es fa en una altra plataforma o en un altre repositori gestionat per una altra entitat (en aquest cas, l'espai de l'Ajuntament contindrà un mirall del repositori principal).
+
+.  Els projectes iniciats per l'Ajuntament disposaran d'un sistema públic de gestió d'incidències de desenvolupament (_issue tracking)_ on qualsevol persona podrà informar sobre deficiències _(bug reporting_) i fer un seguiment de la seva evolució. 
+El sistema també permetrà oferir contribucions i fer un seguiment de la seva integració, així com suggerir millores o adaptacions.
+
+.  El codi, incloent els comentaris, estarà en anglès. Existirà sempre un fòrum de resolució d'incidències en anglès. Opcionalment, alguns projectes poden decidir establir plataformes de participació en el desenvolupament on el català i el castellà siguin les llengües preferents.
+
+.  Els projectes també comptaran amb un sistema d'integració contínua que permeti executar bateries de proves automatitzades i que mostri informació pública dels resultats de les mateixes.
+
+****
+
+[.policy]
+.Manteniment del codi i de documentació
+****
+
+[.policy-summary]
+******
+Durant la vigència del seu contracte, els proveïdors de serveis de desenvolupament dels sistemes informàtics hauran de col·laborar amb l'IMI a mantenir el codi disponible en sistemes adequats de control de versions.
+Així mateix, tot sistema i servei haurà d'estar correctament documentat per a administradors, usuaris i desenvolupadors, incloent les instruccions necessàries per a la instal·lació, el desplegament i la configuració del servei en entorns lliures i oberts.
+******
+
+[loweralpha]
+. En els plecs s'establirà com a condicionis d'execució el període i la forma en què el contractista està obligat a mantenir i suportar el codi.
+
+. Els contractes que incloguin l'operació i administració d'un servei establiran que el codi que es vol executar ha d'haver-se publicat prèviament al repositori principal del projecte, en una branca destinada a aquesta finalitat (que pot ser la branca principal). 
+Els repositoris de projectes lliures o alliberats seran públics.
+
+. Els avisos de deficiències (_bugs_) i la seva resolució es duran a terme també de manera visible i transparent, amb els mitjans descrits en l'epígraf “Desenvolupament”.
+
+. Tots els projectes tindran una política de versions explícita descrita al seu repositori o amb un enllaç des d'allà (per exemple, SemVer).
+
+. El repositori públic haurà d'incloure la documentació adequada per al desplegament i manteniment del codi (per exemple, fitxer _Readme_ amb una descripció del projecte, els requisits per utilitzar el programari, una referència a les instruccions d'instal·lació, la llicència utilitzada, etc.).
+
+. Els plecs establiran la documentació d'usuari (incloent l'administració del servei) que haurà de lliurar el contractista i les seves característiques tècniques, idioma, etc. 
+Aquesta documentació també es farà pública i estarà coberta per una llicència, que es fixarà en els plecs, per defecte la CC0 o la CC-BY-SA 3.0.
+
+. Tots els fitxers continguts al repositori referits a documentació, incloent la documentació d'usuari si aquesta es troba al repositori de codi, utilitzaran l'anglès com a idioma i estaran formatats en text pla o en algun llenguatge de marques lleuger com ReStructuredText.
+****
+
+=== Un nou model relacional amb els proveïdors i la comunitat
+
+La política de sobirania tecnològica de la ciutat preveu evitar dependències d'un sol proveïdor, la qual cosa també és un factor clau per augmentar la capacitat d'innovació en els serveis públics. 
+Sempre que sigui possible, la contractació de serveis digitals ha d'augmentar la diversitat de proveïdors.
+
+Els desenvolupaments de programari lliure més innovadors i efectius requereixen una gestió efectiva d'una comunitat d'interessats que participi i contribueixi a l'evolució i sostenibilitat del programari. 
+L'IMI seguirà els principis de comunitat sostenible, oberta, transparent i participativa.
+
+La governança de la comunitat i la gestió tècnica d'aquests projectes, inclosa l'aprovació de codi per a la seva incorporació al projecte i la definició de requisits i el seu _roadmap_, són aspectes que cal tenir en compte. 
+Es promourà la diversitat de contribucions, però per a projectes crítics l'IMI mantindrà el control efectiu dels desenvolupaments tècnics finançats per fons públics.
+
+Aquests principis es concreten en les directrius següents:
+
+[.policy]
+.Col·laboració amb comunitats lliures i altres entitats.
+****
+
+[.policy-summary]
+******
+Els projectes proposats estudiaran les possibilitats de col·laboració amb les comunitats tecnològiques i de programari lliure, en especial amb comunitats locals.
+També s'afavorirà la col·laboració amb altres entitats i institucions interessades, per promoure la innovació social i els productes i competències tecnològics locals.
+******
+
+[loweralpha]
+. En els plecs de contractació (projectes i avantprojectes) es pot establir com un criteri de valoració l'existència i la possibilitat de col·laboració amb una comunitat de desenvolupadors i usuaris per a les tecnologies que es volen seleccionar.
+
+. En l'execució del projecte, es promourà la col·laboració amb les comunitats de desenvolupadors i usuaris, en especial si aquestes són comunitats locals, a través de processos per al foment del desplegament i ús del programari, seminaris, conferències, reunions tècniques (_hackfests_, etc.) així com un procés per a la recepció de contribucions de tercers i la seva validació (_community management_ i _release management_ —vegeu l'apartat sobre “Contribucions externes”).
+
+. A més dels canals estàndard de col·laboració amb comunitats de desenvolupament “en obert” (especificats sota l'epígraf “Desenvolupament”), per a certs projectes estratègics també es pot obligar a establir mecanismes específics dirigits a les comunitats locals de desenvolupadors i usuaris. 
+Aquests poden ser eines digitals de col·laboració (fòrums, _wikis_, llistes de correu) o presencials (actes, _hackfests_), i l'idioma principal d'ús pot ser el català o el castellà.
+****
+
+[.policy]
+.Sostenibilitat i governança
+****
+
+[.policy-summary]
+******
+Els projectes que generin sistemes i eines completes lliures a través d'un servei de desenvolupament promogut i finançat per l'Ajuntament hauran d'incloure un model de sostenibilitat i de governança del projecte. 
+Aquest model inclourà, entre altres aspectes, una aproximació a la definició de la comunitat, les seves eines de suport, les activitats de comunicació i _màrqueting_, els processos per a la inclusió de contribucions externes, la gestió de la propietat intel·lectual i la sostenibilitat de l'eina més enllà del mateix projecte per a l'Ajuntament.
+******
+
+[loweralpha]
+. La definició de la “comunitat” d'un projecte pot incloure: altres ajuntaments i administracions públiques, sectors especialistes com el de Geodata o de biblioteques, organitzacions o entitats relacionades amb les tecnologies del projecte.
+
+. L'estructura de governança dels projectes inclou la determinació de:
+
+* La política sobre dependències: qui i com decideix quins són admissibles.
+* La política de contribucions: qui i com decideix quines aportacions són incloses al producte.
+* Les relacions i òrgans de gestió compartits amb altres entitats com empreses o altres administracions públiques.
+* La política de comunicació i _màrqueting_.
+
+. Per a projectes d'envergadura es recomana adoptar (o escriure) un codi de conducta (en anglès) amb un enllaç des de la pàgina web del projecte i des del fitxer Readme del repositori. 
+L'esmentat document serveix per establir les normes de participació en els canals de comunicació telemàtics del projecte, així com les regles de conducta per a possibles actes presencials.
+****
+
+[.policy]
+.Contribucions externes
+****
+
+[.policy-summary]
+******
+Es promourà que actors externs puguin realitzar contribucions als projectes liderats o alliberats per l'Ajuntament. 
+S'establiran regles concretes adaptades a cada cas per a la gestió dels drets sobre aquestes contribucions a fi d'assegurar el respecte dels drets de tercers i la normativa aplicable.
+******
+
+[loweralpha]
+. Les recomanacions en aquest epígraf estan orientades a assegurar, per als projectes alliberats per l'Ajuntament, els objectius següents:
+* Integrar el màxim de contribucions amb valor i qualitat (tant de codi, resolució d'errors, etc. com de documentació) alienes a les activitats de l'Ajuntament i als seus contractistes.
+* Assegurar que totes les contribucions tenen la qualitat tècnica suficient.
+* Assegurar la integritat jurídica de les contribucions (assegurar que no s'inclou erròniament la propietat intel·lectual de tercers).
+* Prioritzar les contribucions que afavoreixen la consecució dels objectius de l'Ajuntament de Barcelona o de la resta d'entitats que patrocinen el projecte i, en qualsevol cas, acceptar només aquelles que no els entorpeixin.
+
+. Tots els projectes alliberats hauran de tenir en el seu repositori els documents necessaris per facilitar el desenvolupament i desplegament del codi per part de tercers (seguint les pràctiques de projectes lliures: per exemple, fitxers _Readme_, _Install_, _Contributing_, _Roadmap_, etc.).
+
+. La gestió de les contribucions inclourà un protocol per a contribucions i la gestió dels drets sobre aquestes, en especial per assegurar que no s'inclou erròniament la propietat intel·lectual de tercers.
+
+. Perquè els requisits per integrar codi siguin estrictament tècnics, convé reduir les barreres burocràtiques a les contribucions. 
+Amb aquest objectiu, disposaran d'instruccions sobre estils i estàndards de programació del projecte i sobre la realització de contribucions des de la perspectiva jurídica (com s'explica en els epígrafs “Propietat intel·lectual” i “Gestió legal”).
+
+. Perquè es tingui plena traçabilitat de les contribucions i que es puguin eliminar, en cas que sigui necessari, aquells fragments de codi que poguessin suposar un risc jurídic, totes les contribucions que finalment s'incorporin al producte hauran d'anar firmades per alguna persona autoritzada pels mantenidors seguint un protocol de certificat d'origen per a desenvolupadors (_Developers Certificate of Origin_, DCO) com que utilitza el nucli de Linux i altres projectes lliures.
+****
+
+[.policy]
+.Retorn a la comunitat i compatibilitat en un futur
+****
+
+[.policy-summary]
+******
+Els projectes que millorin o transformin un producte de programari lliure existent, realitzats tant per personal de l'Ajuntament com per proveïdors, tant com sigui possible contribuiran a aquestes millores i qualssevol correccions _upstream_ del projecte original. 
+Així mateix, els projectes garantiran, tant com puguin, la compatibilitat en un futur, de tal manera que el programari adaptat per a l'Ajuntament de Barcelona minimitzi al màxim els possibles problemes d'actualització i manteniment.
+******
+
+[loweralpha]
+. _Upstreaming_ significa fer contribucions de codi (desenvolupat per i per a l'Ajuntament) partint de projectes lliures ja existents, perquè s'inclogui en el seu _code base_ i així formar part del projecte lliure.
+
+. La raó d'assumir el cost extra que pugui suposar, a curt termini, l'esforç de contribuir al projecte original (_upstream_) és que, una vegada els canvis hagin estat integrats, el manteniment de les noves funcionalitats o millores va a càrrec de tota la comunitat que sosté el projecte. 
+També així es garanteix la qualitat dels canvis introduïts i la compatibilitat amb futures modificacions efectuades per tercers.
+
+. El compromís d'intentar contribuir d'una manera _upstream_ a les ampliacions i modificacions efectuades al programari de projectes lliures ja existents es concreta en els punts següents, que s'especificaran en les condicions d'execució de cada projecte rellevant:
+* S'assumiran com a vinculants per al contractista els criteris de qualitat de la comunitat del projecte original, incloent les directrius de codificació (_coding standards_).
+* Els mateixos contractistes seran responsables d'oferir a la comunitat les modificacions implementades seguint els canals i protocols descrits per aquesta.
+* S'establiran les clàusules sobre propietat intel·lectual i llicència en concordança amb les expectatives del projecte original.
+* Els desenvolupadors contractats o subcontractats per l'Ajuntament hauran de firmar un acord de llicència (_Contributor License Agreement_, CLA) o DCO amb els titulars del projecte si aquests així ho requereixen.
+
+. En els projectes de programari lliure que disposin d'un codi de conducta escrit, es recomana establir clàusules en els plecs que permetin sancionar els contractistes que l'incompleixin.
+****
+
+=== Política flexible de propietat intel·lectual
+
+Respecte a la propietat intel·lectual, l'Ajuntament concep tant la figura tradicional de la cessió de drets sobre desenvolupaments nous a l'Ajuntament com l'opció de deixar la propietat intel·lectual del desenvolupament al proveïdor, sempre que aquest alliberi el codi sota llicència lliure. 
+Això fomenta la indústria local i la reutilització de recursos.
+
+Per regla general, s'evitarà l'acumulació de propietat intel·lectual a l'IMI i, si la tingués, es propiciarà que es pugui alliberar o es permetrà la reutilització del programari o de les solucions adquirides. 
+Per la qual cosa, quan sigui convenient, la propietat intel·lectual sobre els desenvolupaments no serà transferida completament a l'IMI pels proveïdors i altres contribuents, de manera que aquests retindran la capacitat de reciclar desenvolupaments per a altres projectes. 
+Sempre que l'IMI pugui reutilitzar, combinar i modificar a voluntat el programari generat i, si escau, alliberar-lo.
+
+Per facilitar i agilitar l'alliberament i reutilització d'aplicacions, cada projecte tecnològic que gestioni l'IMI establirà un marc legal clar per gestionar els drets de propietat intel·lectual i industrial, l'ús de components sota diferents llicències i les contribucions al projecte, i identificarà clarament el titular dels drets sobre el programari i l'abast i les característiques de les cessions de drets.
+
+Les contribucions externes fora del contracte de subministrament o servei requeriran un procés formal per instrumentar la cessió de drets a l'Ajuntament, ja sigui mitjançant un acord de cessió de drets, en la forma de la llicència del projecte o un acord de llicència sobre contribucions (anomenat CLA), ja sigui mitjançant una manifestació sobre drets (DCO), per assegurar que no s'inclogui erròniament la propietat intel·lectual de tercers.
+
+Els projectes hauran d'utilitzar una eina centralitzada de l'IMI per gestionar tant les llicències generades com aquelles dels components utilitzats en el desenvolupament.
+
+Aquests principis es concreten en les directrius següents:
+
+[.policy]
+.Propietat intel·lectual en el programari
+****
+
+[.policy-summary]
+******
+Els projectes de l'Ajuntament establiran un marc legal per determinar de manera clara els drets de propietat intel·lectual dels desenvolupaments realitzats i la seva gestió. 
+Depenent del cas, els acords establiran el model de propietat triat, incloent l'opció de cedir els drets a l'Ajuntament o a l'IMI, deixar-los en mans del proveïdor o cedir-los a entitats que gestionin el codi rellevant per al projecte, sempre que s'asseguri, per a projectes alliberats, la seva disponibilitat sota llicència lliure.
+******
+
+[loweralpha]
+. Cada projecte definirà quines persones o organitzacions seran titulars dels drets d'explotació del codi.
+
+. Per regla general, s'evitarà l'acumulació de propietat intel·lectual a l'IMI. 
+En situacions en les quals la propietat intel·lectual dels desenvolupaments no serà transferida a l'IMI, els proveïdors podran retenir-la i tenir la capacitat de reciclar desenvolupaments per a altres projectes, però en tot cas l'Ajuntament podrà utilitzar, combinar i modificar el programari generat i permetre el seu alliberament o una altra forma de reutilització.
+
+. En alguns casos, l'IMI voldrà mantenir un control efectiu dels desenvolupaments tècnics finançats per fons públics. Les contribucions externes fora de contracte requeriran un _Contributor License Agreement_ (CLAfootnote:[Vegeu, per exemple, a http://harmonyagreements.org/.]). No obstant això, existeixen altres opcions per a la correcta gestió de les contribucions (establir un DCOfootnote:[DCO__:__ Developers Certificate of Origin. Per exemple: https://developercertificate.org/] o la realització de contribucions sota la llicència del projecte o sota una llicència més permissiva).
+
+. Independentment de la política respecte als drets d'explotació, que pot variar d'un projecte a un altre, es reconeixerà l'autoria de tots els contribuïdors en un fitxer _Authors_ a l'arrel del repositori públic.
+****
+
+[.policy]
+.Gestió legal dels projectes de desenvolupament de programari
+****
+
+[.policy-summary]
+******
+Els projectes hauran d'establir processos i documentació per gestionar els aspectes legals vinculats amb la propietat intel·lectual i les llicències de programari (en particular per a les contribucions i les llicències dels components utilitzats en el desenvolupament i altres dependències de programari, assegurant que totes les llicències involucrades siguin compatibles) i per a això utilitzar bones pràctiques i eines estàndards o d'ús generalitzat al sector, de tal manera que es garanteixi la traçabilitat i integritat del codi.
+******
+
+[loweralpha]
+. La correcta gestió legal facilitarà el compliment de la normativa i els drets de tercers durant el projecte i després d'ell.
+
+. En els plecs s'haurà de garantir la integritat jurídica de les contribucions realitzades al repositori de codi, és a dir, que en cap moment no s'haurà d'incloure codi del qual no se sigui autor ni es tingui permís per utilitzar sota les condicions exigides per la llicència. 
+Es recomana seguir una política de firma dels _commit_ mitjançant cessió de drets o DCO.
+
+. També serà obligació dels contractistes establir la llista completa de components de tercers inclosos en el projecte, advertir l'IMI cada vegada que s'introdueixi una nova dependència de programari en el projecte i analitzar si el nou paquet del qual es vol dependre té una llicència lliure compatible amb la resta del projecte.
+
+. Al repositori de codi hi haurà de constar un fitxer _License_ amb el text complet de la llicència que es vol utilitzar per al projecte. 
+Si la llicència hi obliga, en cada fitxer de codi s'especificarà la llicència sota la qual es distribueix i les persones o entitats que tenen els drets d'explotació d'aquest (_copyright notice_).
+
+. Es promourà l'ús d'estàndards i millors pràctiques com SPDX i OpenChain per a una transparència més gran entre proveïdor i Ajuntament i la seva conformitat amb les millors pràctiques legals del sector.
+
+. L'IMI designarà un responsable de gestionar els aspectes legals, amb l'objecte d'assegurar el compliment de les obligacions legals associades amb les llicències lliures utilitzades i altres temes legals (propietat intel·lectual, marques, governança de les comunitats) com _FOSS Compliance Officer_.
+****
+
+[.policy]
+Llicència per a l'alliberament de programari
+****
+
+[.policy-summary]
+******
+El programari generat en el marc dels projectes de serveis digitals de l'Ajuntament, inclòs el programari resultant de contractes de serveis, serà posat a disposició pública sota una llicència que compleixi la normativa aplicable. 
+L'Ajuntament establirà criteris i requisits per determinar quina llicència utilitzar en cada projecte.
+******
+
+[loweralpha]
+. La llicència triada haurà de complir els requisits del RD 4/2010.
+
+. La llicència dependrà del tipus de desenvolupament i del marc de creació, partint de criteris que inclouen el grau de permissivitat o reciprocitat (_copyleft_), la compatibilitat interna i externa amb altres projectes, si es tracta de plataformes _software as a service_, etc.
+
+. En la mesura que es pugui, l'Ajuntament ha d'evitar la proliferació de llicències, de manera que s'establirà un ventall de llicències recomanades i compatibles entre elles per a la infraestructura tecnològica de l'Ajuntament.
+
+. Quan es facin ampliacions o adaptacions de projectes lliures ja existents, s'adoptarà la llicència que aquests mateixos tinguin.
+
+. En altres casos, com una condició d'execució del contracte (vinculant per al contractista), es podrà establir per endavant la llicència lliure que ha de cobrir tot el codi del projecte.
+
+. En concursos per a projectes nous de desenvolupament es pot o bé requerir una llicència específica o bé deixar marge a les ofertes per proposar la llicència que es vol utilitzar, en reconeixement de les legítimes polítiques comercials i de llicenciament que poden tenir diferents proveïdors (sempre que es tracti de llicències lliures). 
+En qualsevol cas, els criteris per elegir o valorar llicències en l'adjudicació tindran en compte que la llicència seleccionada:
+* _Ha de ser en la llista de llicències de programari lliure de la Free Software Foundation o de l'Open Source Initiative, OSI. 
+No es recomana en absolut la redacció de llicències ad hoc ni l'ús de llicències de domini públic. 
+Tampoc no és recomanable l'ús de llicències molt infreqüents o desconegudes._
+* _Ha de protegir l'Ajuntament respecte a responsabilitats o obligacions de suport i garantia relacionades amb versions redistribuïdes del programari._
+* _Es recomana triar una llicència que afavoreixi la integració i interacció del projecte amb el seu ecosistema tecnològic (per exemple, si es tracta d'un component Python, escollir una llicència habitual a la comunitat Python)._
+* _Si totes les altres condicions són iguals, es recomana una llicència amb_ copyleft _(fins i tot_ copyleft _de xarxa si es tracta d'una aplicació distribuïda), ja que és el que considera oportú la llei espanyola i serveix per evitar que un producte desenvolupat amb fons públics acabi sent privatitzat_.
+
+. A l'MI hi haurà un equip especialitzat per assessorar els projectes en aspectes legals i relatius a llicències i determinar les obligacions de cada llicència utilitzada.
+****
+
+[.policy]
+.Marques
+****
+
+[.policy-summary]
+******
+En cas de registrar una marca comercial per designar un projecte de programari alliberat per l'Ajuntament, aquest establirà una política pública d'ús d'aquesta que permeti als membres de la comunitat d'usuaris i desenvolupadors utilitzar-la en el marc de les activitats d'aquesta comunitat.
+******
+
+[loweralpha]
+. Per a projectes que es volen alliberar, caldrà evitar que el seu nom sigui idèntic o similar a projectes lliures ja existents i, en particular, a marques ja registrades sobre productes i serveis en l'àmbit de les tecnologies de la informació.
+
+. La marca serveix per distingir el projecte i evitar imitacions o projectes similars (fins a _forks_), que s'aprofiten de la reputació i l'esforç del projecte original patrocinat o de propietat de l'Ajuntament.
+
+. La política d'ús de la marca permetrà l'ús del programari del projecte per part de la comunitat i de tercers que adoptin o implementin el programari i restringirà l'ús comercial per part de tercers contrari a les normes de la comunitat i del mateix Ajuntament.
+****

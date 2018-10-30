@@ -1,0 +1,61 @@
+// tag::metadata[]
+// OBLIGATORI. Títol del document. En el format web, apareix com a capçalera de nivell 1.
+// En format PDF, apareix a la portada.
+:_title: Sobirania Tecnològica
+
+// OPCIONAL. Si apareix, ha de començar amb ": " (dos punts seguit d'un esai en blanc).
+// En el format web, apareix com part de la mateixa capçalera de nivell 1 que el títol.
+// En el format PDF, apareix a la portada, just després del títol.
+:_subtitle:
+
+// Normalment no és necessari modificar aquest camp.
+:doctitle: {_title}{_subtitle}
+
+// OBLIGATORI. Versió numèrica en format X.Y.Z, on X, Y i Z són nombres,
+// i Z és opcional.
+:revnumber: 0.1
+
+// OPCIONAL. Data de publicació de la revisió. Quan el valor per defecte
+// ("{docdate}") és utilitzat, la data actual en format YYYY-MM-DD és automàticament
+// inserida en aquest camp cada vegada que que el document formatat (web o PDF) és
+// generat. També és possible escriure manualment aquí un data fixa.
+:revdate: {docdate}
+
+// OBLIGATORI.
+:authors: Francesca Bria, Paco Rodríguez, Malcolm Bain, Joan Batlle, Ana Bastida Vila, +
+Xabier Barandiaran Fernández, Marius Boada Pla, Guillem Marpons, Xavier Roca Vilalta, +
+Xavier Bes Segovia, Josep Carles Collazos, Joan Domènech Bas, Oscar Sanz García, +
+Carlos Echevarría Meseguer, LLuís Girona Frisach, Anna Majó Crespo, Tomás Gea Calza, +
+Javier Ruiz, Gemma Galdon, John Michaelides, Esther Bretschneider.
+
+// OBLIGATORI. Resum dels continguts del document. Correspondria al "abstract" en una publicació acadèmica.
+:_summary: Implementació pràctica de sobirania tecnològica per a participants i interessats dels serveis digitals de l’Ajuntament de Barcelona.
+
+// OBLIGATORI. Llista de termes separada per comes que permeten trobar el document.
+// En format web, aquests termes estan integrats al SEO enabling metadata.
+// En format PDF, son mostrats al costat d'altres metadades.
+:keywords:
+
+// OBLIGATORI. Històric de canvis al document.
+:_dochistory:
+
+// OBLIGATORI. Termes legals pels quals aquest document pot ser distribuït i/o modificat.
+// Normalment no és necessari modificar el valor inicials d'aquest camp.
+:_copyleft: Ajuntament de Barcelona i els autors d'aquest text, sota Creative Commons Reconeixement-CompartirIgual 4.0 Internacional (CC-BY-SA-4.0)
+// end::metadata[]
+
+
+// tag::metadata-table[]
+== Metadata
+
+[cols="20,80"]
+|===
+| Title                                 | {_title}
+| Version                               | {revnumber}
+| Date                                  | {revdate}
+| Authors                               | {authors}
+| Summary                               | {_summary}
+| Keywords                              | {keywords}
+| Copyleft                              | {_copyleft}
+|===
+// end::metadata-table[]

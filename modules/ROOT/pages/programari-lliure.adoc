@@ -1,0 +1,144 @@
+= Programari lliure
+:experimental:
+:icons: font
+:page-partial:
+:source-highlighter: highlightjs
+
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+include::{partialsdir}/README.adoc[tag=metadata]
+
+== Concepte i definicions
+
+Els principis generals que subjauen al progra-mari lliure són els conceptes de *llibertat i d’accés*, principis bàsics de la sobirania tecnològica: llibertat d'ús del programari i accés al seu codi font per poder gaudir d'aquesta llibertat.
+
+El programari lliure no es diferencia de la resta de programari quant a les seves propietats tècniques, si bé el seu desenvolupament se sol organitzar d'una manera diferent. 
+El que el distingeix principalment són les seves característiques legals i les condicions d'ús i de (re)distribució establertes en la llicència. 
+L'ús del programari lliure no segueix les mateixes regles que el programari ”propietari”, les llicències del qual solen establir limitacions estrictes a l'ús del programari en qüestió (per equip, per nombre d'instal·lacions o d'usuaris, per CPU, per quantitat de dades processa-des...). 
+Això implica que es necessiti “comprar” tantes llicències com usos hi hagi.
+
+El programari lliure es diferencia del programari propietari pels drets i les *"llibertats"* concedides en les corresponents llicències (“llicències lliures”, moltes de les quals són anomenades també “llicències de codi obert”). 
+En resum, aquests drets permeten a qualsevol *utilitzar, copiar o modificar lliurement el programari i redistribuir-lo a tercers,* sota certes condicions.
+
+Una llicència de programari de codi obert és una llicència que garanteix les “llibertats del programari”, segons la Free Software Foundation (FSF), o que compleix les directrius establertes per l’_Open Source Initiative_ (OSI). 
+Des de una perspectiva tècnica i pràctica, ambdós llibertats, les del programari lliure i les de les directrius OSI se solapen substancialment (mentre que la visió filosòfica de les dues institucions poden ser bastant diferents).
+
+La Free Software Foundation va definir el programari lliure de la manera següent (1986)footnote:[_Definició de programari lliure, https://www.gnu.org/philosophy/free-sw.en.html[https://www.gnu.org/philosophy/free-sw.es.html.]_]: _Un programa és programari lliure si els usuaris tenen les quatre llibertats essencials:_
+
+.  _La llibertat d’utilitzar el programa, amb qualsevol propòsit (llibertat 0)._
+
+.  _La llibertat d’estudiar com funciona el programa, i adaptar-lo a les seves necessitats (llibertat 1)._ Accedir al codi font es una precondició per aquesta llibertat
+
+.  _La llibertat de distribuir còpies (llibertat 2)._
+
+.  _La llibertat de millorar el programa i fer públiques les millores als altres (llibertat 3)._ Accedir al codi font es una precondició per aquesta llibertat
+
+D'altra banda, l'expressió “codi obert” (o “programari de fonts obertes”) és una traducció d’_open source software_ i es refereix a aquells programes que es distribueixen sota una llicència que, sent lliure, compleix les directrius de l'OSI agrupades en la definició del programari de fonts obertes (_Open Source Definition_), que recullen i desenvolupen aquestes quatre llibertats footnote:[_Definició de font oberta a https://opensource.org/osd_].
+
+Dins d'aquesta definició, les llicències han de complir deu condicions per ser considerades de fonts obertes:
+
+. Lliure redistribució: pot ser lliurat gra-tuïtament o venut.
+.  Codi font: ha d'estar inclòs o ha de poder ser obtingut lliurement.
+.  Obres derivades: s'ha de permetre la redistribució de modificacions.
+.  Integritat del codi font de l'autor: les llicències poden requerir que les modificacions hagin de ser redistribuïdes només com a pedaços.
+.  No discriminació contra persones o grups.
+.  No discriminació quant a usos: per exemple, els usuaris comercials no han de ser exclosos.
+.  Distribució de la llicència: els drets vinculats al programa s'han d'aplicar a totes les persones cap a les quals el pro-grama és redistribuït, sense la necessitat de l'execució d'una llicència addicional per part d'aquestes.
+.  La llicència no ha de ser específica d'un determinat producte: el programa no pot ser llicenciat només com a part d'una distribució més gran.
+.  La llicència no ha de restringir cap altre programari: la llicència no pot insistir en el fet que qualsevol altre programari amb el qual aquest es distribueixi hagi de ser també de programari lliure.
+.  La llicència ha de ser neutra tecnològicament parlant.
+
+Aquestes directrius asseguren, entre altres coses, que una llicència certificada com “de fonts obertes” concedeixi als usuaris els drets esmentats d'explotació del programari i, per tant, garanteixi que es fa *sense discriminació* i que els llicenciataris puguin *accedir al codi font.*
+
+En l'àmbit jurídic, no hi ha diferència entre la definició de programari lliure i les directrius de codi obert. 
+Això es tradueix, en tot cas i en termes de llicència, en el fet que es permet a l'usuari reproduir, transformar (millorar, adaptar, integrar amb altres programes) i distribuir o redistribuir el programa i qualsevol codi derivat d'aquest per qualsevol finalitat.
+
+== CopyLeft
+
+Les llicències de programari lliure amb _copyleft_ van més enllà de garantir les quatre llibertats bàsiques del programari per als llicenciataris o usuaris directes. 
+Una llicència que concedeix els drets esmentats sense imposar condicions permet al llicenciatari incloure el programari lliure en un altre programari i redistribuir el resultat sota llicència restrictiva o “propietària”, de manera que els usuaris del nou programa no tindran les llibertats originalment cedides. 
+És a dir, que no hi ha cap garantia que el programari lliure continuï sent lliure. 
+Per aquesta raó va caldre inventar un mecanisme per garantir aquesta llibertat: el *copyleft*.
+
+Amb l'objectiu d'assegurar que qualsevol usuari del programari pugui gaudir d'aquestes llibertats en tot moment, les llicències de programari lliure amb _copyleft_ obliguen els llicenciataris a:
+
+a. Utilitzar la mateixa llicència lliure per a la redistribució del programari (tant el programari original sense modificar com per a qualsevol modificació que es faci d'aquest).
+
+b. Proporcionar u oferir accés al codi font a tots els usuaris.
+
+Aquesta doble condició, elimina qualsevol possibilitat de poder distribuir el programari lliure sota llicència privativa. 
+Veiem que el _copyleft_ recull els dos conceptes fonamentals del programari lliure (i la sobirania tecnològica): la llibertat i l'accés.
+
+== Llicències lliures
+
+Dins de l'esquema general d'aquestes llibertats, hi ha diverses maneres d'expressar-les jurídicament. 
+Això, juntament amb les diferents condicions addicionals que un hi pot afegir, és la causa que existeixin prop de noranta llicències actuals i passades classificades com lliures per la FSF, moltes de les quals estan també reconegudes com fonts obertes per l'OSI, cadascuna amb les seves particularitats. 
+La diferència més important radica en les condicions sobre la redistribució, i el grau de _copyleft_ sol ser el criteri de classificació o diferenciació de les llicències.
+
+a. Si el programa té a una llicència “*permissiva*” (de tipus BSD o X/MIT), generalment no hi ha condicions sobre la redistribució, la qual cosa permet barrejar-lo amb qualsevol altre programari.
+
+b. Si el programa té una llicència GPL o una altra llicència “*amb* _*copyleft*_”, llavors la re-distribució del programa i de qualsevol obra derivada o composta que la inclogui, ha de ser sota la mateixa llicència (p. ex. la GPL), i oferir a l'usuari accés al codi font. Això assegura que el programa quedi “lliure” i no pugui ser “privatitzat”.
+
+c. Algunes llicències “intermèdies” o amb “*_copyleft_ suau*” (com la LGPL, la MPL o l'EUPL) permeten agregar o vincular codi nou al codi original i distribuir el conjunt sota una llicència nova (propietària o lliure). 
+Tanmateix, la part original haurà d'oferir-se sota la seva llicència original, normalment amb el codi font. És una forma de _copyleft_ parcial.
+
+Les llicències més conegudes i utilitzades són les següents:
+
+* Permissives: MIT, BSD, Apache Software License 2.0
+
+* _Copyleft:_ GPLv2 i GPLv3, AferroGPL3
+
+* _Copyleft_ suau: LGPL (versió 2 o 3), MPL (ara versió 2), CPL (Common Public License)
+
+Una manera d'entendre la diferència entre llicències permissives i amb _copyleft_ és que garanteixen diferents tipus de llibertat:
+
+a. Una llicència de programari lliure permissiva, com la llicència BSD o MIT, atorga més llibertat als desenvolupadors, perquè aquests poden incorporar i distribuir desenvolupaments del programari sota llicències tant de programari lliure com propietàries.
+b. Una llicència de programari lliure _copyleft_ transmet més llibertat als usuaris finals, perquè aquests sempre rebran aplicacions amb el seu codi font i sota la llicència de programari lliure.
+
+== Avantatges
+
+L'impacte de les llicències de programari lliure en l'àmbit jurídic i pràctic és important. 
+La conseqüència directa d'utilitzar programari sota una llicència de programari lliure (i exercir els drets concedits sota aquesta) és la possibilitat de:
+
+a. Descarregar i copiar el programa lliurement (habitualment d'internet, de manera gratuïta).
+
+b. Realitzar una instal·lació per provar-lo i avaluar-lo.
+
+c. Modificar-lo per adaptar-lo a les nostres necessitats (o contractar un desenvolupador-consultor perquè ho faci).
+
+d. Aplicar-lo en el nostre negoci o entitat en tots els equips que sigui necessari, i actualitzar-lo a mesura que es llencin noves versions.
+e. Redistribuir-lo (a internet o en format CD/ DVD, etc.) perquè d'altres puguin beneficiar-se de qualsevol modificació o millora realitzada. 
+Tot això sense haver de negociar una llicència amb un venedor, establir contractes de suport exclusius o calcular els equips o usuaris que utilitzaran el programari en qüestió.
+
+Entre els principals avantatges indirectes del model jurídic del programari lliure, trobem els següents:
+
+a. *Reutilització:* el dret de poder executar, modificar i redistribuir el programari lliure implica que existeix un nivell molt més alt de reutilització, tant pel que es refereix a components com a aplicacions completes per a l'usuari final, la qual cosa comporta una eficiència més gran.
+
+b. *Independència:* el lliure accés al codi font, juntament amb el dret d'executar i modificar-lo, atorga a l'usuari un alt grau d'independència del seu proveïdor, quelcom que pot aprofitar-se per exigir més qualitat del servei prestat.
+
+c. *Col·laboració:* aquests mateixos drets d'accés, execució i modificació fomenten la creació col·laborativa de programari (en-tre desenvolupadors que potser mai no s'han conegut) i la correcció d'errors per part dels usuaris.
+
+d. *Orientació a serveis:* en no poder “vendre llicències”, les empreses de consultoria i desenvolupament de programari lliure solen basar el seu negoci en la venda de serveis (de selecció, d'integració i implementació, de suport i manteniment, de formació, d'oferiment de garanties, etc.).
+
+
+a. *Comunitats:* els drets concedits per les llicències permeten l'ús intensiu i la difusió massiva del programari lliure a través de les xarxes d'internet (sobretot a partir de repositoris com SourceForge o GitHub) i fomenten la creació de comunitats al vol-tant dels projectes de programari lliure.
+
+
+Per l'efecte de la distribució lliure del programari lliure, aquest sol ser gratuït: no serveix de res posar un preu, si demà qualsevol usuari pot legítimament publicar el _software_ (codi font i el binari) a internet per a la seva des-càrrega sense cost, per qualsevol internauta. 
+Això no impedeix que hi hagi venedors que ofereixen programari lliure “de pagament”. 
+Redhat Inc., per exemple, pot cobrar per la seva distribució de GNU/Linux (p. ex. Red Hat Enterprise) bàsicament perquè ofereix productes i serveis addicionals: garanties de funcionament, serveis d'ajuda i suport, aplicacions administratives o d'instal·lació.
+
+****
+[quote, UK Government, https://www.gov.uk/design-principles#tenth]
+____
+Hauríem de compartir el que estem fent quan podem. 
+Amb col·legues, amb usuaris, amb el món. 
+Compartir codi, compartir dissenys, compartir idees, compartir intencions, com-partir fracassos. 
+Quants més ulls miren un servei, millor serà — es detectaran els errors evidents, s’identificaran les millors alternatives, es puja el llistó.
+
+Molt del que estem fent és únicament possible degut al programari lliure i la generositat de la comunitat de disseny del web. 
+Hauríem de tornar el favor.
+____
+****

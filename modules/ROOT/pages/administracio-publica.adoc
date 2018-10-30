@@ -1,0 +1,127 @@
+= Programari lliure i Administració pública
+:experimental:
+:icons: font
+:page-partial:
+:source-highlighter: highlightjs
+
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+include::{partialsdir}/README.adoc[tag=metadata]
+
+== La pràctica
+
+Hi ha molts exemples d'ús i creació de programari lliure per part de les administracions públiques tant europees com en l'àmbit internacional. 
+La migració de servidors i escriptoris de l'administració de la ciutat de Munic és un cas molt conegut footnote:[Presentació Declaration of Independence: The LiMux Project in Munic, en línia a https://joinup.ec.europa.eu/sites/ default/files/fe/cb/fa/IDABC.OSOR.casestudy.LiMux.pdf_], però existeixen molts més exemples, com la migració a servidors i escriptoris Linux que s'està duent a terme a l'Ajuntament de Saragossa footnote:[_Migració escriptori programari lliure, en línia a https://www.zaragoza.es/contenidos/azlinux/migracionescritoriosl.pdf. Més informació a https://www.zaragoza.es/ciudad/sectores/tecnologia/swlibre/zo2.html_].
+
+La Comissió Europea estableix, dins del seu programa _Interoperable Delivery of European_ _eGovernment Services to Public Administrations, Businesses and Citizens_ (ara anomenat JoinUp), un observatori de programari lliure que recull casos de referència d'adopció de programari lliure a la UE footnote:[_Open source observatory, en línia a https://joinup.ec.europa.eu/node/26689 en línia_]: revela que literalment milers de ciutats i regions instal·len i alliberen programari lliure a Europa. 
+El lloc _JoinUp_ comenta que més de 15.000 projectes estan llicenciats sota la llicència lliure EUPL (vegeu a sota), la majoria provinents de les administracions europees.footnote:[_More projects licensed under EUPL (15,000 according to GitHub), en línia a https://joinup.ec.europa.eu/community/ eupl/news/more-projects-licensed-under-eupl-15000-according-github_] JoinUp també estableix una federació de repositoris de programari lliure en l'àmbit europeu footnote:[_JoinUp: About federated repositories, en línia a https://joinup.ec.europa.eu/catalogue/repository_], a l'efecte de poder buscar i identificar solucions existents sota llicències lliures.
+
+****
+[quote, European Comission, https://ec.europa.eu/info/european-commissions-open-source-strategy_en]
+____
+La Comissió Europea augmentarà més el paper del programari de codi obert per a molts dels seus serveis informàtics claus i solucions de programari. 
+L'estratègia renovada posa una èmfasi especial en l'aprovisionament i la contribució a projectes de programari de codi obert i en proporcionar més programari de codi obert en la Comissió.
+____
+****
+
+La política d'estratègia de programari lliure de la Comissió Europea va ser publicada el 2014, reforçant la seva voluntat d'alliberar sota llicència lliure el programari creat per o per a la Comissió, així com contribuir i participar en comunitats de desenvolupament.footnote:[_EC Open Source Software Strategy, en línia a https://ec.europa.eu/info/european-commissions-open-source-strategy_en_]
+
+Dins d'Espanya, l'exemple inicial més notable d'alliberament i ús de programari és el projecte LinEx, d'Extremadura, així com el repositori d'Andalusia (avalat per l'Ordre, de 21 de febrer de 2005, sobre disponibilitat pública dels programes informàtics de l'administració de la Junta d'Andalusia i dels seus organismes autònoms). 
+Des de llavors, s'han creat diverses versions de Linux per a les administracions espanyoles (inclòs Linkat, per a la comunitat educativa catalana footnote:[En línia a http://linkat.xtec.cat/portal/index.php[http://linkat.xtec.cat/portal/index.php]]) i l'Administració central manté un repositori de programari reutilitzable (en el Centre de Transferència de Tecnologia footnote:[En línia a https://administracionelectronica.gob.es/pae_Home/pae_SolucionesCTT/pae_CTT_-__Que_es_.html i la compte de Github es a https://github.com/ctt-gob-es.] ) i el seu propi compte a GitHub.
+
+El mateix Ajuntament de Barcelona ha alliberat el programari Sentilo footnote:[Sentilo Project, en línia a http://www.sentilo.io] , una plataforma de gestió de dades, desenvolupat per a la ciutat, mentre que la Generalitat de Catalunya té diversos projectes alliberats, entre d'altres EinesTIC footnote:[Generalitat de Catalunya, EinesTIC, en línia a http://sac.gencat.cat/sacgencat/AppJava/servei_fitxa.jsp?codi=14232].
+
+
+== Avantatges
+
+Els avantatges de l'ús del programari lliure per part de l'Administració pública han estat discutits en diversos llocs. 
+Destaquem, sense anar més lluny, la Proposta de recomanacions a l'Administració General de l'Estat sobre utilització del programari lliure, MAP, de juny de 2005. 
+Sintetitzant aquest document, es poden enumerar els següents avantatges legals:
+
+[loweralpha]
+. Obtenir drets suficients sobre el pro-gramari (control, d’una banda, i llibertat, de l’altra) per optimitzar la seva gestió: actualitzacions, redistribucions, etc.
+. Gaudir de la llibertat de còpia i redistribució interna i externa a l'Administració pública.
+. Contribuir a la posada en comú i reutilització de programari de les administracions públiques (IDA, nacional).
+. Complir amb el marc legal de l'actuació pública (eficàcia, eficiència, conservació, seguretat, normalització i interoperabilitat, accés i respecte lingüístic, reutilització de recursos).
+
+Aquests avantatges també han estat estudiats i presentats per Cenatic, el _Centre d'Excel·lència de Programari de Fonts Obertes_ de l'Administració Pública espanyola (pertanyent a Red. es, del MINETUR d’Espanya), per exemple en la seva publicació _Diez razones para el uso de software de fuentes abiertas en la educación”_ o “_Diez razones para que la administración libere software”_,footnote:[_En línia a http://www.cenatic.es/index.php?option=com_content&view=article&id=25669 i http://www.cenatic.es/ publicaciones/divulgativas?download=21%3A10-razones-para-que-la-administracion-libere-software-extendido respectivament_] enumerant, a títol de resum, els avantatges següents:
+
+* Independència del fabricant de programari: Gràcies al tipus de llicència, les administracions públiques i les empreses usuàries poden controlar l'ús de la tecnologia i tenen més llibertat per dissenyar la seva estratègia tecnològica futura.
+* Estalvi de costos: Gràcies a la compartició, la reutilització i l'absència de costos associats a les llicències, es genera un estalvi significatiu en el cost final de les aplicacions, utilitzant sempre un programari 100% legal.
+* Més seguretat i qualitat del programari: Fer públic el codi permet aportacions de la comunitat de desenvolupadors que contribueix de forma contínua a la seguretat i la qualitat del programari, corregint els errors detectats i fent evolucionar més ràpid l'aplicació.
+* Desenvolupament del sector TIC local: En tenir accés al codi, les pimes de l'entorn poden oferir serveis a les administracions públiques i a les empreses, de manera que poden competir en millors condicions amb altres operadors dominants al sector.
+* Generació de valor en comunitat: Utilitzar programari lliure permet a les administracions públiques i a les empreses compartir i reutilitzar aplicacions, col·laborant entre si, amb el sector tecnològic i amb la comunitat de desenvolupadors.footnote:[_En línia a http://www.cenatic.es/sobre-el-software-libre/ventajas-del-software-libre_]
+
+****
+[quote, _Parlament basc: Decret 159/2012, de 24 de juliol, pel qual es regula l'obertura i reutilització de les aplicacions informàtiques de l'Administració pública de la Comunitat Autònoma d'Euskadi._]
+____
+La reutilització que amb això s'aconsegueix permet un clar estalvi de costos en el desenvolupament, el manteniment i l'evolució del codi font. 
+Però, principalment, fomenta el desenvolupament d'una economia basada en el coneixement i la innovació, i coadjuva al desenvolupament d'un ecosistema empresarial de les tecnologies de la informació i de les comunicacions, en millorar la competitivitat d'aquest a través del foment de la cooperació entre el sector privat i el sector públic amb l'únic objecte de millorar els serveis públics, la qualitat dels quals es basa, en la majoria dels casos, en l'ús massiu de les tecnologies de la informació.
+____
+****
+
+== Marc legal
+
+Queda clar que les administracions públiques espanyoles són competents per adquirir i utilitzar programari lliure, intercanviar-lo entre elles i alliberar programari de la seva titularitat a la comunitat. 
+A Espanya, hi ha algunes disposicions generals que tendeixen a afavorir l'ús de programari lliure en l'Administració pública.
+
+[loweralpha]
+. La més rellevant es troba originalment al capítol III del títol IV de la Llei 11/2007, de 22 de juny, d'accés electrònic dels ciutadans als serveis públics (LAECSP), titulat _Reutilització_ _d’aplicacions i transferència de tecnologies_, ara *art. 157 i 158 de la Llei 40/2015*, en què s'estableixen mesures que, sense promoure directament el programari lliure, faciliten (a) la reutilització de recursos informàtics entre administracions, (b) la *creació de repositoris* *d'aplicacions* per a la seva reutilització (com el repositori de CTT del Govern central espanyol) i (c) l’*alliberament* d'aquelles aplicacions que són propietat de les administracions públiques sota llicències lliures.
+. Així mateix, s'identifica la *disposició addicional setzena de la Llei 57/2007*, de 28 de desembre, de Mesures d'impuls de la societat de la informació, que estableix que les administracions públiques poden posar a disposició del públic aquells *continguts digitals* els drets de propietat intel·lectual dels quals li pertanyin sense restriccions o siguin de domini públic, sota llicències que permeten l'estudi, còpia i redistribució en els mateixos termes (és a dir, amb un grau de _copyleft_).
+. Més important encara,al *Reial Decret* *4/2010*, de 8 de gener, pel qual es regula l'Esquema Nacional d'Interoperabilitat en l'àmbit de l'Administració electrònica hi trobem:
+
+* En el seu article 16, s'estableixen les condicions de llicenciament aplicables a les aplicacions informàtiques reutilitzables i que es declarin com de “codi font obert”, i en particular que aquestes aplicacions poden redistribuir-se a altres usuaris però sempre que l'obra derivada mantingui les garanties indicades, és a dir, amb un ele-ment de _copyleft_ (suau o fort). 
+Així mateix, per a l'alliberament de programari, l'article 16 recomana l'ús de la llicència EUPL, sense perjudici d'altres que garanteixin els drets establerts.
+* En l'article 17, s'estableixen determinades condicions aplicables tant als directoris d'aplicacions informàtiques per a la seva lliure reutilització (quant al seu enllaç amb instruments equivalents d'altres administracions públiques) com al deure de tenir en compte les solucions disponibles en aquests que puguin satisfer totalment o parcial les necessitats de nous sistemes o serveis, la millora i actualització dels ja implantats, així com els relatius a la publicació del codi font de les aplicacions informàtiques en els esmentats directoris a fi d'afavorir les accions de compartir, reutilitzar i col·laborar en benefici d'una millor eficàcia i eficiència.
+
+En l'àmbit autonòmic, per exemple, hi ha *l’Ordre, de 21 de febrer de 2005*, sobre disponibilitat pública dels programes informàtics de l'administració de la Junta d'Andalusia i dels seus organismes autònoms i també, més recent, el *Decret 159/2012, de 24 de juliol*, pel qual es regula l'obertura i la reutilització de les aplicacions informàtiques de l'Administració pública de la Comunitat Autònoma d'Euskadi footnote:[_Decret 159/2012, de 24 de juliol, pel qual es regula l'obertura i reutilització de les aplicacions informàtiques de l'Administració pública de la Comunitat Autònoma d'Euskadi; i Ordre, de 25 de setembre de 2012, de la Conselleria d'Interior, Justícia i Administració Pública, per la qual s'aprova la política d'obertura i reutilització d'aplicacions informàtiques de l'Administració pública de la Comunitat Autònoma d'Euskadi._]. Ambdós afavoreixen l'ús i la reutilització de programari lliure i la creació de repositoris per facilitar les accions esmentades.
+
+El Tribunal Constitucional a Itàlia footnote:[_Italian Constitutional Court in 2010, with Decision no. 122 of March 22._] ha considerat que afavorir solucions basades en programari lliure no distorsiona la competència ni és contrari a les lleis (italianes) de contractes del sector públic, ja que especificar el règim legal del subministrament del programari (la llicència de programari lliure d'entrega) no és una discriminació tecnològica, de marques o de proveïdor, sinó una condició legal dels plecs que tots els proveïdors hauran de complir.
+
+Les diferents legislacions a què l'Ajuntament de Barcelona s'ha de sotmetre ni exclouen ni exigeixen l'ús de programari lliure a l'Administració, però alguns dels criteris que estableixen per a l'adquisició de programari, com el foment de la reutilització o la necessitat d'interoperabilitat, s'aconsegueixen de manera més efectiva, consistent i duradora amb llicències lliures.
+
+
+== Contractació pública de programari lliure
+
+Quant a les condicions d'adquisició de tecnologies per als serveis digitals de les administracions, de programari lliure o basades en ell, si bé cap país europeu obliga a utilitzar programari lliure, la majoria prohibeix la discriminació de proveïdors que presentin propostes de programari lliure, basant-se en els principis de lliure competència i no-discriminació.
+Per contra, obliguen al fet que el programari subministrat compleixi els estàndards oberts i internacionalment reconeguts.
+
+Altres marcs reguladors estableixen preferències per a l'ús de tecnologies lliures. 
+El 2014, per exemple, el Govern italià va promoure solucions lliures, establint una ordre de prioritat quant a l'anàlisi de les propostes: les administracions han de considerar solucions lliures abans que programari propietari i da-vant de solucions cloud.
+
+A Espanya, els subministraments a l'Administració pública de programari i serveis relacionats amb el programari estan principal-ment reglamentats pel Reial Decret Legislatiu 3/2011, de 14 de novembre, pel qual s'aprova el text refós de la Llei de contractes del sector públic. 
+Més enllà dels procediments habituals de la contractació pública (plecs, ofertes, adjudicació, realització i resolució, etc.), destaquem alguns punts importants en el context del programari lliure:
+
+
+* Aquesta llei considera la provisió de programari “base” o estàndard (propi o de tercers) com un subministrament, mentre que els desenvolupaments particulars a mida es consideren serveis (art. 9 i 10)
+
+
+* Per al segon cas, el prestador de serveis (de desenvolupament) ha de cedir a l'Administració pública els drets en les adaptacions i personalitzacions i altres desenvolupaments entregats en el curs d'un contracte, tret que s'estableixi una altra cosa als plecs de clàusules administratives (art. 301).
+
+
+Recordem també l'article 17 del RD 4/2010, de 8 de gener, que obliga les administracions a consultar els repositoris de solucions existents reutilitzables, abans de contractar una nova tecnologia.
+
+== Llicències per a l'alliberament de programari per l'Administració pública
+
+L'article 16 de l'esmentat Reial Decret 4/2010, de 8 de gener, estableix quatre condicions per a l'alliberament de programari per les administracions públiques espanyoles:
+
+[quote, Cortes Generales (Spanish Parliament), "Royal Decree 4/2010, of 8 January"]
+____
+[start=2]
+. Les administracions utilitzaran per a les aplicacions que declarin ser de fonts obertes aquelles llicències que assegurin que els programes, dades o informació que es comparteixen:
+.. Poden executar-se per a qualsevol propòsit.
+.. Permeten conèixer el seu codi font.
+.. Poden modificar-se o millorar-se.
+.. Poden redistribuir-se a altres usuaris amb o sense canvis sempre que l'obra derivada mantingui aquestes mateixes quatre garanties.
+.  Per a aquesta finalitat es procurarà l'aplicació de la Llicència Pública de la Unió Europea, sense perjudici d'altres llicències que garanteixin els mateixos drets exposats en els apartats 1 i 2.
+____
+
+Això significa que una administració pública pot utilitzar qualsevol llicència actual de programari lliure sempre que contingui un element de _copyleft_ (condició 2(d) a dalt), si bé es “recomana” la llicència EUPL. 
+Per a l'alliberament de programari per part de la Comissió Europea o la UE, així com, per extensió, altres administracions públiques, es va realitzar un estudi el 2005 i es va determinar que cap llicència lliure existent, si bé podia servir, no era idònia. 
+Per tant, el 2007 (actualitzada el 2017), es va publicar l’_European_ _Union Public License_ (EUPL o Llicència Pública de la Unió Europea), que és una llicència amb _copyleft_ suau.
+
+****
+L’EUPL és una llicència interessant pel seu annex sobre “__Llicències compatibles__” o “__interoperables__”. Per evitar conflictes de llicència, l’EUPL permet als llicenciataris redistribuir obres derivades (i obres combinades o compostes) sota una llicència compatible o sota una llicència incompatible indicada a l’annex (que inclou _l**’Eclipse PL, l’OSL 2 i 3.0, la CeCILL, la LGPLv2.1 i la**_ _*GPLv2 i ara la GPL3 i la AGPLv3*_ ). Aquesta compatibilitat expressa i la política d’interoperabilitat s’apliquen al resultat final de la integració (i no als components originals que mantenen la seva llicència pròpia). Per tant, aquests termes d’interoperabilitat respecten la llicència original, però permeten interoperabilitat amb altres llicències _copyleft_ normalment incompatibles.footnote:[_Vegeu comentaris sobre la EUPL “The European Union Public Licence (EUPL)”, en línia a http://www.ifosslr.org/ifosslr/article/view/91; i comentaris a "Understanding the EUPL 1.2", en línia a https://joinup.ec.europa.eu/news/understanding-eupl-v12_]
+****

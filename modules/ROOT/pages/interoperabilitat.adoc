@@ -1,0 +1,64 @@
+= Interoperabilitat, formats i estàndards oberts
+:experimental:
+:icons: font
+:page-partial:
+:source-highlighter: highlightjs
+
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+include::{partialsdir}/README.adoc[tag=metadata]
+
+La interoperabilitat és la capacitat de diferents sistemes digitals, possiblement de diferents proveïdors, de funcionar conjuntament i compartir informació sense obstacles tècnics o jurídics. 
+En el glossari es dona una definició més detallada de què entenem per _interoperabilitat_ i les seves diferents dimensions (organitzativa, semàntica, tècnica i temporal).
+
+Els estàndards o normes existeixen per proporcionar interoperabilitat entre diferents productes. 
+Quan les normes estan sota el control de només una part o d'algunes d'elles, això generalment condueix a la dominació del mercat. 
+Per evitar això, s'ha de garantir la llibertat d'utilitzar i desenvolupar estàndards en qualsevol forma que als usuaris i desenvolupadors puguin semblar-los apropiada.
+
+Un estàndard és generalment una norma o especificació respecte a certa enginyeria o criteris tècnics, mètodes, processos i pràctiques, generalment aconseguits a través del consens de les parts interessades.
+Normalment, les normes es creen sota els auspicis d'organitzacions formals com l'UIT, l'ISO, l'IETF, la W3C, l'OASIS, etc.
+
+Mitjançant l'adopció d'un estàndard obert per a un servei digital, l'administració i els seus usuaris finals no estan restringits a un proveïdor en particular i això disminueix la dependència d'aquest; per tant, permet augmentar les opcions de l'usuari final i dona com a resultat un mercat més competitiu per a les tecnologies i solucions que apliquen la norma.
+
+S'ha argumentat que un estàndard obert és més que una mera especificació. 
+Un estàndard obert és “obert” a causa dels principis subjacents i per la forma en què s'ha desenvolupat públicament i en què s'ha aprovat i, per tant, és accessible. 
+Es regeix per un procés de col·laboració i consens. Un estàndard obert es basa generalment en el principi que està disponible perquè cada usuari final el pugui obtenir, llegir i desenvolupar, sense regalies ni costos. 
+S'ha argumentat que es pot imposar una taxa mínima o “raonable” (per exemple, per certificar el compliment per part d'una organització de normalització), que ha de ser llavors un cost baix o raonable (RAND: raonable i no discriminatori). 
+Tanmateix, per a molts això no és acceptable, ja que impossibilita, per exemple, els desenvolupaments en programari lliure.
+
+L'Ajuntament de Barcelona considera que l'ús d'estàndards oberts:
+
+* Promou la interoperabilitat i la integració compatible entre els múltiples sistemes d'informació i conjunts de dades de l'Ajuntament, tant de manera interna com en interrelació amb altres sistemes i dades externes. 
+Per tant, els estàndards oberts són una condició prèvia per a la neutralitat tecnològica.
+
+* Estableix normes comunes i redueix les diferències entre especificacions tècniques, creant la igualtat de condicions (un _level playing field_), la qual cosa disminueix les barreres per al desenvolupament i la prestació de serveis competitius en l'àmbit local, regional i internacional, estimulant la innovació i, alhora, reduint els costos.
+
+* Permet una sinergia més gran per a la col·laboració regional i internacional en el sector informàtic i en particular per a la publicació i intercanvi de dades entre diferents serveis i entitats.
+
+* Garanteix que la informació generada digitalment en un determinat moment en el temps serà llegible i reutilitzable en els pròxims mil·lennis (independentment dels programes utilitzats per a la seva generació o lectura). 
+Així, les especificacions públiques i obertes garanteixen la preservació, durabilitat, integritat i reutilització de la informació sense restriccions.
+
+* Redueix la duplicació de feina, cosa que permet a sistemes i entitats interdependents treballar junts per completar o complir un procés amb un cost més baix.
+
+* Facilita la interacció de la ciutadania amb les administracions públiques i entitats privades, ja que no imposen cap proveïdor de programari en particular.
+Una empresa o persona que utilitzi un programari basat en estàndards oberts mai es veurà obligada a adquirir un programari competidor del que ja està utilitzant per exercir el dret a comunicar-se amb la seva administració pública.
+
+* Permet una representació més gran d'interessos en el sector, amb les consegüents millores contínues necessàries, el suport, la competència entre proveïdors i més flexibilitat en les opcions tecnològiques. 
+Això condueix a una reducció del risc per a l'Ajuntament, de manera que els seus usuaris finals adoptaran les especificacions de l'estàndard obert en integrar els sistemes de l'Ajuntament amb els seus proveïdors, ciutadans i altres socis.
+
+* Promou l'ús de programari lliure, ja que el seu procés d'elaboració consisteix en la definició d'especificacions disponibles públicament, i la disponibilitat del seu codi font promou un debat obert i democràtic al voltant de les especificacions, fent-les més robustes i interoperables.
+
+L'Ajuntament considera que les característiques mínimes que han de tenir una especificació i els seus documents per ser considerats com a estàndard obert són les següents:
+
+* La norma és adoptada i serà mantinguda per una organització sense ànim de lucre, i el seu desenvolupament continu es realitza sobre la base d'un procediment obert de presa de decisions a disposició de totes les parts interessades (protecció consensual de la privacitat al sector de les comunicacions electròniques o decisió majoritària).
+
+* La norma s'ha publicat i el document d'especificació de l'estàndard està disponible gratuïtament o amb un càrrec nominal. 
+Ha d'estar permès a totes les persones copiar-los, distribuir-los i utilitzar-los sense cap càrrec o amb una tarifa nominal.
+
+* Qualsevol dret de propietat intel·lectual i industrial sobre la norma (per exemple, possibles patents) es llicencia a l'usuari lliure de regalies.
+
+* No hi ha restriccions sobre la utilització i reutilització de la norma.
+
+La interoperabilitat tècnica, semàntica i organitzativa està, a més, regulada en la legislació espanyola a partir del Reial Decret 4/2010, de 8 de gener, pel qual es regula l'Esquema Nacional d'Interoperabilitat en l'àmbit de l'Administració electrònica.

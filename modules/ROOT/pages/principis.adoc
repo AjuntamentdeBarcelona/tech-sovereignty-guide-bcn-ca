@@ -1,0 +1,34 @@
+= Principis generals de sobirania tecnològica
+:experimental:
+:icons: font
+:page-partial:
+:source-highlighter: highlightjs
+
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+include::{partialsdir}/README.adoc[tag=metadata]
+
+El 6 d’octubre de 2016 la comissionada de Tecnologia i Innovació Digital va presentar el Pla Barcelona Ciutat Digital 2017–2020: transició cap a la sobirania tecnològica, la missió de la qual és “resoldre els reptes de la ciutat i de les persones a través d'un ús més democràtic de la tecnologia. 
+Impulsar la innovació tecnològica i digital, per un govern més obert, com a eina per al desenvolupament d'una economia plural que fomenti la transformació social i ambiental, i que afavoreixi l'apoderament ciutadà”.
+
+El Pla, que s'estructura en tres eixos, és una mostra de la voluntat de Barcelona de liderar una transició cap a la sobirania tecnològica, una sobirania tecnològica del govern i de la ciutadania que permeti fer-los partícips per decidir i actuar sobre les prioritats i estratègies en l'ús de la tecnologia a la ciutat. En particular, dins de l'eix govern i ciutat, el Pla se centra en un govern obert i eficient, que es val de la tecnologia per a la transformació i la innovació digital del sector públic basada en programari lliure i uns estàndards oberts. 
+A més, es proposa disposar d'una infraestructura de dades pública i oberta per desenvolupar aplicacions innovadores basades en dades.
+
+Segons la Mesura de Govern, la sobirania tecnològica del govern i de la ciutadania permetrà decidir i actuar sobre les prioritats en l'ús de la tecnologia, decidir sobre com es desenvolupa la nostra ciutat i recuperar-ne el coneixement de la gestió de la ciutat amb eines tecnològiques — coneixement que fins ara massa sovint ha estat en mans de poques empreses. 
+Serà una sobirania que permeti deixar aquest coneixement com a llegat per a la mateixa ciutat. 
+A més, aquesta sobirania tecnològica, promoguda amb estàndards oberts, ha de ser una eina per al bé comú, que generi nova economia i faciliti també compartir coneixement entre diferents ciutats.
+
+Dins del marc d'aquest pla, s'estableix que, a més de dissenyar els serveis públics com a “serveis digitals per defecte”, posant la ciutadania en el centre del procés de disseny i aportant valor públic, aquests serveis han de construir-se de forma més àgil i alhora oberta, han de ser més senzills, modulars i interoperables, per evitar dependències amb venedors i proveïdors de solucions propietàries específiques; per això, cal potenciar l'ús del programari lliure i dels estàndards oberts.
+
+Com a activitat destacable, la Mesura estableix la “transició cap al programari lliure i estàndards oberts”: la transició cap al programari lliure i els estàndards oberts, estudiant les millors pràctiques europees i espanyoles en aquest àmbit. 
+És per això que es dissenyarà un pla de migració i s'establirà un codi de bones pràctiques sobre tecnologia que guiï la transformació interna, la reutilització i compartició de codi amb i de tercers i el desenvolupament o utilització de solucions de govern comunes.
+
+Per aquestes raons, la sobirania tecnològica dins del Pla Barcelona ciutat Digital 2017-2020 es basa en tres principis fonamentals:
+
+* La transició i l'ús de programari lliure
+
+* La interoperabilitat de serveis i sistemes
+
+* Ús d'estàndards oberts
