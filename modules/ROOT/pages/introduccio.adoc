@@ -30,6 +30,6 @@ ____
 
 Un objectiu important d'aquest document, per tant, és ajudar els participants i interessats dels serveis digitals de l'Ajuntament de Barcelona a treballar amb tecnologies, solucions i projectes lliures; entendre quins són els drets i obligacions que es deriven de les llicències lliures; incentivar el desenvolupament, l'adquisició, l'ús i l'alliberament de programari; assegurar que els seus beneficis siguin aprofitats, i eliminar reticències que puguin existir per desconeixement dels seus diferents aspectes tècnics, organitzatius i jurídics.
 
-== Àmbit d’aplicació
+== Àmbit d'aplicació
 
 Aquest document serà aplicat en la gestió i la governança dels nous projectes de serveis digitals que entrin dins del Pla de transformació digital de l'Ajuntament de Barcelona.

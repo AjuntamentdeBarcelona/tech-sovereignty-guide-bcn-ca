@@ -29,7 +29,7 @@ Carlos Echevarría Meseguer, LLuís Girona Frisach, Anna Majó Crespo, Tomás Ge
 Javier Ruiz, Gemma Galdon, John Michaelides, Esther Bretschneider.
 
 // OBLIGATORI. Resum dels continguts del document. Correspondria al "abstract" en una publicació acadèmica.
-:_summary: Implementació pràctica de sobirania tecnològica per a participants i interessats dels serveis digitals de l’Ajuntament de Barcelona.
+:_summary: Implementació pràctica de sobirania tecnològica per a participants i interessats dels serveis digitals de l'Ajuntament de Barcelona.
 
 // OBLIGATORI. Llista de termes separada per comes que permeten trobar el document.
 // En format web, aquests termes estan integrats al SEO enabling metadata.

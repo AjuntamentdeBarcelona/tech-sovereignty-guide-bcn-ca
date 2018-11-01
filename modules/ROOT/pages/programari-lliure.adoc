@@ -22,7 +22,7 @@ Això implica que es necessiti “comprar” tantes llicències com usos hi hagi
 El programari lliure es diferencia del programari propietari pels drets i les *"llibertats"* concedides en les corresponents llicències (“llicències lliures”, moltes de les quals són anomenades també “llicències de codi obert”).
 En resum, aquests drets permeten a qualsevol *utilitzar, copiar o modificar lliurement el programari i redistribuir-lo a tercers,* sota certes condicions.
 
-Una llicència de programari de codi obert és una llicència que garanteix les “llibertats del programari”, segons la Free Software Foundation (FSF), o que compleix les directrius establertes per l’_Open Source Initiative_ (OSI).
+Una llicència de programari de codi obert és una llicència que garanteix les “llibertats del programari”, segons la Free Software Foundation (FSF), o que compleix les directrius establertes per l'_Open Source Initiative_ (OSI).
 Des de una perspectiva tècnica i pràctica, ambdós llibertats, les del programari lliure i les de les directrius OSI se solapen substancialment (mentre que la visió filosòfica de les dues institucions poden ser bastant diferents).
 
 La Free Software Foundation va definir el programari lliure de la manera següent (1986)footnote:[_Definició de programari lliure, https://www.gnu.org/philosophy/free-sw.en.html[https://www.gnu.org/philosophy/free-sw.es.html.]_]: _Un programa és programari lliure si els usuaris tenen les quatre llibertats essencials:_
@@ -136,7 +136,7 @@ ____
 Hauríem de compartir el que estem fent quan podem.
 Amb col·legues, amb usuaris, amb el món.
 Compartir codi, compartir dissenys, compartir idees, compartir intencions, com-partir fracassos.
-Quants més ulls miren un servei, millor serà — es detectaran els errors evidents, s’identificaran les millors alternatives, es puja el llistó.
+Quants més ulls miren un servei, millor serà — es detectaran els errors evidents, s'identificaran les millors alternatives, es puja el llistó.
 
 Molt del que estem fent és únicament possible degut al programari lliure i la generositat de la comunitat de disseny del web.
 Hauríem de tornar el favor.

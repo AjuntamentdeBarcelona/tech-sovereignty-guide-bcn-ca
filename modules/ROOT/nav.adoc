@@ -5,4 +5,4 @@
 * xref:interoperabilitat.adoc[Interoperabilitat, format i estàndards oberts]
 * xref:politica.adoc[Política sobre la sobirania tecnològica i directrius per la seva implementació]
 * xref:references.adoc[Referències]
-* xref:glossary:ROOT:glossary.adoc[Glossari]
+//* xref:glossary:ROOT:glossary.adoc[Glossari]
