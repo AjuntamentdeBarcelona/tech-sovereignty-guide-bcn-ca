@@ -30,7 +30,7 @@ _The Sharing and Reuse Framework for IT Solutions_ (2016).
 En línia a _https://joinup.ec.europa.eu/sites/default/files/sharing_and_reuse_of_it_solutions_framework_final.pdf_
 
 _Governance Models for Sharing and Re-use for Common IT Solutions_ (2013).
-En línia a _https:// joinup.ec.europa.eu/sites/default/files/b6/cc/cd/Governance%20Models%20for%20Sharing%20and%20Re-use.pdf_
+En línia a _https://joinup.ec.europa.eu/sites/default/files/b6/cc/cd/Governance%20Models%20for%20Sharing%20and%20Re-use.pdf_
 
 OSOR: _Guideline on public procurement of Open Source Software_ (2010).
 En línia a _https://_ _joinup.ec.europa.eu/sites/default/files/24/ac/83/OSS-procurement-guideline%20-final.pdf_
@@ -42,7 +42,7 @@ _Open Source Software Strategy_.
 En línia a _https://ec.europa.eu/info/european-commissions-open-source-strategy_en#softwarestrategy_
 
 Political support and pioneers pivotal for open source.
-En línia a _https://joinup.ec.europa.eu/ community/osor/news/political-support-and-pioneers-pivotal-open-source,_ citant Loon i Toshkov, _Adopting open source software in public administration: The importance of boundary_ _spanners and political commitment,_ en línia a _https://doi.org/10.1016/j.giq.2015.01.004_
+En línia a _https://joinup.ec.europa.eu/community/osor/news/political-support-and-pioneers-pivotal-open-source,_ citant Loon i Toshkov, _Adopting open source software in public administration: The importance of boundary_ _spanners and political commitment,_ en línia a _https://doi.org/10.1016/j.giq.2015.01.004_
 
 _Public administration should prefer open source_.
 En línia a _https://joinup.ec.europa.eu/community/osor/news/%E2%80%98public-administration-should-prefer-open-source%E2%80%99_, citant el prof.
@@ -52,13 +52,13 @@ Dietmar Harhoff, director del Max Planck Institute for Innovation and Competitio
 
 _Software de fuentes abiertas para el desarrollo de la Administración Pública Española_.
 Guia sobre l'ús del programari lliure en l'administració pública espanyola.
-En línia a _http://observatorio._ _cenatic.es/index.php?option=com_content&view=article&id=39:software-de-fuentes-abiertas-para-el-desarrollo-de-la-administracion-publica-espanola-una-vision-global-2008&ca-tid=5:administraciones-publicas&Itemid=21_
+En línia a _http://observatorio.cenatic.es/index.php?option=com_content&view=article&id=39:software-de-fuentes-abiertas-para-el-desarrollo-de-la-administracion-publica-espanola-una-vision-global-2008&ca-tid=5:administraciones-publicas&Itemid=21_
 
 _Diez razones para el uso de software de fuentes abiertas en la educación_.
 En línia a _http://www.cenatic.es/index.php?option=com_content&view=article&id=25669_
 
 _Diez razones para que la administración libere software._
-En línia a _http://www.cenatic.es/ publicaciones/divulgativas?download=21%3A10-razones-para-que-la-administracion-libere-software-extendido_
+En línia a _http://www.cenatic.es/publicaciones/divulgativas?download=21%3A10-razones-para-que-la-administracion-libere-software-extendido_
 
 *FOSSPROJECT/PS-OSS:*
 
@@ -102,10 +102,11 @@ Paapst, Mathieu (2010) _Affirmative action in procurement for open standards and
 Piana, Carlo (2010) _Italian Constitutional Court gives way to Free Software friendly laws, IFOSS L._ _Rev., 2(1),_ p. 61-66, DOI.
 En línia a _10.5033/ifosslr.v2i1.38_
 
-Omnis Systems (2016) Documents de suport a la compra pública en els aspectes de tecnologia oberta. (Document de treball de l'Ajuntament de Barcelona)
+Omnis Systems (2016) Documents de suport a la compra pública en els aspectes de tecnologia oberta.
+(Document de treball de l'Ajuntament de Barcelona).
 
 Offerman, A (2012) _Public Open Source Software Procurement Models: The Next Generation, European Journal of ePractice_, núm. 18 (octubre de 2012).
-En línia a _https://joinup.ec.europa.eu/ elibrary/case/public-open-source-software-procurement-models-next-generation i http:// www.offerman.com/articles/Joinup/ePractice-Journal_Volume_18_Final_12_10_12_PART8.pdf_
+En línia a _https://joinup.ec.europa.eu/elibrary/case/public-open-source-software-procurement-models-next-generation i http://www.offerman.com/articles/Joinup/ePractice-Journal_Volume_18_Final_12_10_12_PART8.pdf_
 
 OSS Watch (2014) _Decision factors for open source software procurement_.
 En línia a _http://oss-watch.ac.uk/resources/procurement-infopack_
