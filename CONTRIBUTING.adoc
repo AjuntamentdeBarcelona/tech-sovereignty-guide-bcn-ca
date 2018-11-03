@@ -1,0 +1,47 @@
+= Contribuir
+
+Nosaltres -els mantenidors d'aquest projecte i la ciutat de Barcelona- valorem el vostre _input_, gaudim del vostre _feedback_ i donem la benvinguda a totes les millores en els nostres documents.
+
+Agraïm les _issues_ i _pull requests_ de tothom.
+
+== Problemes, suggeriments i preguntes
+
+No necessiteu canviar cap document per esdevenir una persona contribuïdora.
+Moltes persones contribueixen reportant problemes, suggerint canvis i preguntant.
+Per fer això, pots crear una _issue_ https://help.github.com/articles/creating-an-issue/[GitHub Issue] per aquest projecte.
+
+== Documentació
+
+Si voleu afegir documentació a algun dels nostres projectes, heu de fer un _pull request_.
+Si mai heu emprat GitHub, podeu aprendre a fer-ho ràpidament llegint https://guides.github.com/introduction/flow/[Understanding the GitHub Flow].
+
+=== Fes els teus canvis
+
+Afegeix els teus canvis amb _commits_ https://github.com/alphagov/styleguides/blob/master/git.md#commit-messages[amb un missatge on quedi clar el per què d'aquests canvis].
+Les explicacions o decisions que poseu en el missatge de _commit_, permetran a tothom estar informat de les vostres decisions en el futur.
+
+Si esteu afegint documentació, abans d'enviar el _pull request_ assegureu-vos que segueix la guia d'estil AsciiDoc que trobareu més abaix en el següent capítol d'aquest document.
+
+=== _Pull request_
+
+A l'hora d'enviar el _pull request_, acompanyeu-lo si us plau de la descripció del problema que esteu corregint i els números (IDs) de les issues que aquest _pull request_ corregeix.
+
+=== Millorar
+
+Podria ser que la vostra aportació fos aplicada immediatament per un mantenidor.
+No obstant això, en general, un nou _pull request_ necessita algunes millores abans que es pugui aplicar.
+Altres col·laboradors (o robots d'ajuda) podrien donar resposta.
+Si aquest és el cas, el revisor-mantenidor ajudarà a millorar la seva documentació.
+
+Si la documentació ha passat satisfactòriament revisió humana, s'aplica.
+
+= Guia d'estil per editar aquesta documentació en AsciiDoc
+
+Aquesta secció és específicament per explicar les convencions a emprar per escriure la documentació en AsciiDoc.
+Si sou nous en AsciiDoc, comenceu llegint https://asciidoctor.org/docs/asciidoc-writers-guide/[això].
+
+== Regles específiques del projecte
+
+* Cada frase en una línia (entenent una frase quan acaba en '.').
+* Quan s'hagi d'afegir una imatge, s'ha d'indicar sempre la seva amplada original (e.g. image::ScrumInfographic.svg[Scrum info-graphic, width=2835])
+* Les infografies que tenen text, sempre han d'estar en format .svg per facilitar-ne l'edició del text.

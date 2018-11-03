@@ -1,61 +1,134 @@
 // tag::metadata[]
+// IMPORTANT: el bloc següent (fins que aparegui "end::metadata[]") ha de ser
+// continuo (no posar cap línia en blanc).
+// OBLIGATORI. Asciidoctor suporta una etiqueta d'idioma,
+// https://asciidoctor.org/docs/user-manual/#customizing-labels
+:lang: en
+//
+// OBLIGATORI. Versió numèrica en format X.Y.Z, on X, Y i Z són nombres,
+// i Z és opcional.
+:revnumber: 0.1
+//
+// OBLIGATORI. URL pointing to a Git repository with the source code of the
+// document. Something like 'https://github.com/USERNAME/REPONAME'.
+:_public_repo_url: https://github.com/AjuntamentdeBarcelona/sobirania-tec-bcn-ca
+//
+// OBLIGATORI.
+:_url: https://ethical-digital-standards-bcn.netlify.com/
+//
 // OBLIGATORI. Títol del document. En el format web, apareix com a capçalera de nivell 1.
 // En format PDF, apareix a la portada.
 :_title: Sobirania Tecnològica
-
+//
 // OPCIONAL. Si apareix, ha de començar amb ": " (dos punts seguit d'un esai en blanc).
 // En el format web, apareix com part de la mateixa capçalera de nivell 1 que el títol.
 // En el format PDF, apareix a la portada, just després del títol.
 :_subtitle:
-
+//
 // Normalment no és necessari modificar aquest camp.
 :doctitle: {_title}{_subtitle}
-
-// OBLIGATORI. Versió numèrica en format X.Y.Z, on X, Y i Z són nombres,
-// i Z és opcional.
-:revnumber: 0.1
-
+//
+// OPTIONAL. Comma-separated list of names.
+:_contributors:
+//
+// OPTIONAL. Comma-separated list of names.
+:_reviewers:
+//
 // OPCIONAL. Data de publicació de la revisió. Quan el valor per defecte
 // ("{docdate}") és utilitzat, la data actual en format YYYY-MM-DD és automàticament
 // inserida en aquest camp cada vegada que que el document formatat (web o PDF) és
 // generat. També és possible escriure manualment aquí un data fixa.
 :revdate: {docdate}
-
+//
 // OBLIGATORI.
-:authors: Francesca Bria, Paco Rodríguez, Malcolm Bain, Joan Batlle, Ana Bastida Vila, +
-Xabier Barandiaran Fernández, Marius Boada Pla, Guillem Marpons, Xavier Roca Vilalta, +
-Xavier Bes Segovia, Josep Carles Collazos, Joan Domènech Bas, Oscar Sanz García, +
-Carlos Echevarría Meseguer, LLuís Girona Frisach, Anna Majó Crespo, Tomás Gea Calza, +
-Javier Ruiz, Gemma Galdon, John Michaelides, Esther Bretschneider.
-
+:authors: Francesca Bria, Paco Rodríguez, Malcolm Bain, Joan Batlle, Ana Bastida Vila, Xabier Barandiaran Fernández, Marius Boada Pla, Guillem Marpons, Xavier Roca Vilalta, Xavier Bes Segovia, Josep Carles Collazos, Joan Domènech Bas, Oscar Sanz García, Carlos Echevarría Meseguer, LLuís Girona Frisach, Anna Majó Crespo, Tomás Gea Calza, Javier Ruiz, Gemma Galdon, John Michaelides, Esther Bretschneider.
+//
 // OBLIGATORI. Resum dels continguts del document. Correspondria al "abstract" en una publicació acadèmica.
 :_summary: Implementació pràctica de sobirania tecnològica per a participants i interessats dels serveis digitals de l'Ajuntament de Barcelona.
-
+//
 // OBLIGATORI. Llista de termes separada per comes que permeten trobar el document.
 // En format web, aquests termes estan integrats al SEO enabling metadata.
 // En format PDF, son mostrats al costat d'altres metadades.
-:keywords:
-
+:keywords: estàndards ètics digitals, drets digitals, barcelona, ajuntament de barcelona, sobirania tecnològica
+//
 // OBLIGATORI. Històric de canvis al document.
 :_dochistory:
-
+//
+// OBLIGATORI. When the document is not in its 1.0 release, yet, we can write "WE
+// URGE YOU NOT TO CITE THIS YET UNTIL REVISION 1.0" Variables like {_title},
+// {authors}, {_subtitle}, {revnumber} or {docyear} can be used here.
+:_citation: {authors}, {docyear}, {_title}
+//
 // OBLIGATORI. Termes legals pels quals aquest document pot ser distribuït i/o modificat.
 // Normalment no és necessari modificar el valor inicials d'aquest camp.
-:_copyleft: Ajuntament de Barcelona i els autors d'aquest text, sota Creative Commons Reconeixement-CompartirIgual 4.0 Internacional (CC-BY-SA-4.0)
+:_copyleft: Ajuntament de Barcelona i els autors d'aquest text
+//
+// OBLIGATORI. Legal terms under which this document can be distributed and/or
+// modified. It's usually not necessary to modify the default contents of this
+// field.
+:_license: Creative Commons Reconeixement-CompartirIgual 4.0 Internacional (CC-BY-SA-4.0)
+//
+// OBLIGATORI. DO NOT CHANGE THIS.
+:page-lang: {lang}
 // end::metadata[]
 
 
 // tag::metadata-table[]
+
+= {_title}
+
+ifeval::["{_subtitle}" != ""]
+[.lead]
+{_subtitle}.
+endif::[]
+
+[abstract]
+{_summary}
+
+Aquest document és part de https://ajuntament.barcelona.cat/digital/ca/transformacio-digital/tecnologia-per-a-un-millor-govern/transformacio-amb-metodologia-agile[Estàndards Digitals Ètics] de l'Ajuntament de Barcelona.
+
 == Metadata
+
+// tag::metadata-table[]
 
 [cols="20,80"]
 |===
-| Title                                 | {_title}
-| Version                               | {revnumber}
-| Date                                  | {revdate}
-| Authors                               | {authors}
-| Summary                               | {_summary}
-| Keywords                              | {keywords}
+| Títol                                 | {_url}[{_title}]
+ifeval::["{_subtitle}" != ""]
+| Subtítol                              | {_subtitle}
+endif::[]
+| Versió                                | {revnumber}
+ifeval::["{_revdate}" != ""]
+| Data                                  | {revdate}
+endif::[]
+| Autors                                | {authors}
+ifeval::["{_contributors}" != ""]
+| Contribuents                          | {_contributors}
+endif::[]
+ifeval::["{_reviewers}" != ""]
+| Revisors                              | {_reviewers}
+endif::[]
+ifeval::["{_participants}" != ""]
+| Participants                          | {_participants}
+endif::[]
+| Paraules clau                         | {keywords}
+ifeval::["{_dochistory}" != ""]
+| Històric del doc.                     | {_dochistory}
+endif::[]
+| Com citar                             | {_citation}
 | Copyleft                              | {_copyleft}
+| Llicència                             | {_license}
 |===
+
 // end::metadata-table[]
+
+== Contribuir i _Forking_ (duplicar)
+
+Es pot fer un _fork_ (duplicat) d'aquest document, adaptar-lo, i reutilitzar-lo en les condicions de la llicència {_license}.
+
+Aquest repositori conté el codi original per al document, escrit en Asciidoc.
+La versió pública estilitzada del document es pot trobar a {_url} [{_title}].
+Trobareu instruccions sobre com aconseguir la versió estilitzada d'aquest i altres documents relacionats a https://github.com/AjuntamentdeBarcelona/ethical-digital-standards-site.
+
+Nosaltres - els mantenidors d'aquest projecte i la Ciutat de Barcelona - valorem els vostres _inputs_, ens agrada rebre _feedback_ i donem la benvinguda a l'aportació de millores per als nostres projectes de programari lliure i documentació.
+Per a més detalls consultar el fitxer link:./CONTRIBUTING.adoc[CONTRIBUTING] en l'arrel d'aquest repositori.
