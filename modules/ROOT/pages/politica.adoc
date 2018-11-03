@@ -252,7 +252,7 @@ En la fase de preparació de contractes s'ha de demostrar que s'ha fet una recer
 . La fase de preparació estudia el mercat i estableix les especificacions tecnològiques i, si escau, les tecnologies recomanades per a futurs projectes municipals de desenvolupament o implantació.
 Freqüentment aquesta preparació es fa dins de l'abast d'un avantprojecte.
 
-. S'hauran de buscar alternatives en, almenys, els repositoris de programari lliure següents: GitHub, SourceForge,https://www.openhub.net/[https://www.openhub.net/] JoinUp i el CTT, d'acord amb el que s'indica en el RD 4/2010 i la Llei 40/2015.
+. S'hauran de buscar alternatives en, almenys, els repositoris de programari lliure següents: GitHub, SourceForge, JoinUp i el CTT, d'acord amb el que s'indica en el RD 4/2010 i la Llei 40/2015.
 
 . En el cas de proposar solucions basades en programari propietari, s'haurà de demostrar que es compleixen les condicions excepcionals enunciades en l'epígraf “Adquisició” i que, per tant, l'ús de programari propietari és l'única opció viable.
 Per a això, l'avantprojecte haurà d'incloure un informe específic que:
@@ -563,7 +563,7 @@ Si la llicència hi obliga, en cada fitxer de codi s'especificarà la llicència
 ****
 
 [.policy]
-Llicència per a l'alliberament de programari
+.Llicència per a l'alliberament de programari
 ****
 
 [.policy-summary]
@@ -592,7 +592,7 @@ Tampoc no és recomanable l'ús de llicències molt infreqüents o desconegudes.
 * _Es recomana triar una llicència que afavoreixi la integració i interacció del projecte amb el seu ecosistema tecnològic (per exemple, si es tracta d'un component Python, escollir una llicència habitual a la comunitat Python)._
 * _Si totes les altres condicions són iguals, es recomana una llicència amb_ copyleft _(fins i tot_ copyleft _de xarxa si es tracta d'una aplicació distribuïda), ja que és el que considera oportú la llei espanyola i serveix per evitar que un producte desenvolupat amb fons públics acabi sent privatitzat_.
 
-. A l'MI hi haurà un equip especialitzat per assessorar els projectes en aspectes legals i relatius a llicències i determinar les obligacions de cada llicència utilitzada.
+. A l'IMI hi haurà un equip especialitzat per assessorar els projectes en aspectes legals i relatius a llicències i determinar les obligacions de cada llicència utilitzada.
 ****
 
 [.policy]

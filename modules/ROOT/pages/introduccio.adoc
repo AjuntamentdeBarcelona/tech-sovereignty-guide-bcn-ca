@@ -14,17 +14,17 @@ include::{partialsdir}/README.adoc[tag=metadata]
 
 Aquest document constitueix un document de suport per al xref:tech-practices:ROOT:aim-and-scope.adoc[Codi de Pràctiques Tecnològiques] que implementa de manera pràctica el concepte de la *sobirania tecnològica*, expandint els principis que guien la nova direcció de l'Institut Municipal d'xref:glossary:ROOT:glossary.adoc#imi[Informàtica de Barcelona (IMI)] en matèria de tecnologia i innovació: interoperabilitat, agilitat, reutilització, ètica i obertura de coneixements i tecnologies.
 
-Aquest document pretén contribuir a que IMI posi en pràctica la línia estratègica de l'Ajuntament de Barcelona que consisteix a incorporar *les tecnologies obertes i el programari* *lliure* en la major part dels seus serveis i processos tecnològics. 
+Aquest document pretén contribuir a què l'IMI posi en pràctica la línia estratègica de l'Ajuntament de Barcelona que consisteix a incorporar *les tecnologies obertes i el programari* *lliure* en la major part dels seus serveis i processos tecnològics. 
 Aquest principi de sobirania tecnològica, juntament amb la *metodologia àgil de desenvolupament de serveis i la gestió responsable de dades*, compon la visió a mitjà termini per a la transformació digital àgil pública a la ciutat de Barcelona.
 
 Segons la declaració de París per al Open Government Partnership:
 
 [quote, Paris Declaration for Open Government Partnership; en línia a https://paris-declaration.ogpsummit.org/topic/5820e48c2fd812b46ab9facc]
 ____
-El programari de codi obert contribueix a fomentar la transparència i la col·laboració. 
-El programari lliure és al cor de la innovació digital i tècnica. 
+El programari de codi obert contribueix a fomentar la transparència i la col·laboració.
+El programari lliure és al cor de la innovació digital i tècnica.
 És el mitjà principal per prestar serveis digitals d'alta qualitat.
-Els socis que s'hi uneixin buscaran promoure la transparència i la rendició de comptes del codi font obert i dels algoritmes que desenvolupin i utilitzin, sempre que sigui possible i apropiat. 
+Els socis que s'hi uneixin buscaran promoure la transparència i la rendició de comptes del codi font obert i dels algoritmes que desenvolupin i utilitzin, sempre que sigui possible i apropiat.
 Els socis que s'hi uneixin miraran de dissenyar els serveis i implementar-los de manera no discriminatòria i treballar per maximitzar els beneficis de compartir i reutilitzar el codi governamental.
 ____
 

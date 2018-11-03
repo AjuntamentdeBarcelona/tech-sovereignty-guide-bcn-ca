@@ -16,7 +16,7 @@ Els principis generals que subjauen al programari lliure són els conceptes de *
 
 El programari lliure no es diferencia de la resta de programari quant a les seves propietats tècniques, si bé el seu desenvolupament se sol organitzar d'una manera diferent.
 El que el distingeix principalment són les seves característiques legals i les condicions d'ús i de (re)distribució establertes en la llicència.
-L'ús del programari lliure no segueix les mateixes regles que el programari ”propietari”, les llicències del qual solen establir limitacions estrictes a l'ús del programari en qüestió (per equip, per nombre d'instal·lacions o d'usuaris, per CPU, per quantitat de dades processa-des...).
+L'ús del programari lliure no segueix les mateixes regles que el programari ”propietari”, les llicències del qual solen establir limitacions estrictes a l'ús del programari en qüestió (per equip, per nombre d'instal·lacions o d'usuaris, per CPU, per quantitat de dades processades...).
 Això implica que es necessiti “comprar” tantes llicències com usos hi hagi.
 
 El programari lliure es diferencia del programari propietari pels drets i les *"llibertats"* concedides en les corresponents llicències (“llicències lliures”, moltes de les quals són anomenades també “llicències de codi obert”).
@@ -29,7 +29,7 @@ La Free Software Foundation va definir el programari lliure de la manera següen
 
 .  _La llibertat d'utilitzar el programa, amb qualsevol propòsit (llibertat 0)._
 
-.  _La llibertat d'estudiar com funciona el programa, i adaptar-lo a les seves necessitats (llibertat 1)._ Accedir al codi font es una precondició per aquesta llibertat
+.  _La llibertat d'estudiar com funciona el programa, i adaptar-lo a les seves necessitats (llibertat 1)._ Accedir al codi font és una precondició per aquesta llibertat
 
 .  _La llibertat de distribuir còpies (llibertat 2)._
 
@@ -45,7 +45,7 @@ Dins d'aquesta definició, les llicències han de complir deu condicions per ser
 .  Integritat del codi font de l'autor: les llicències poden requerir que les modificacions hagin de ser redistribuïdes només com a pedaços.
 .  No discriminació contra persones o grups.
 .  No discriminació quant a usos: per exemple, els usuaris comercials no han de ser exclosos.
-.  Distribució de la llicència: els drets vinculats al programa s'han d'aplicar a totes les persones cap a les quals el pro-grama és redistribuït, sense la necessitat de l'execució d'una llicència addicional per part d'aquestes.
+.  Distribució de la llicència: els drets vinculats al programa s'han d'aplicar a totes les persones cap a les quals el programa és redistribuït, sense la necessitat de l'execució d'una llicència addicional per part d'aquestes.
 .  La llicència no ha de ser específica d'un determinat producte: el programa no pot ser llicenciat només com a part d'una distribució més gran.
 .  La llicència no ha de restringir cap altre programari: la llicència no pot insistir en el fet que qualsevol altre programari amb el qual aquest es distribueixi hagi de ser també de programari lliure.
 .  La llicència ha de ser neutra tecnològicament parlant.
@@ -123,10 +123,10 @@ Entre els principals avantatges indirectes del model jurídic del programari lli
 
 . *Orientació a serveis:* en no poder “vendre llicències”, les empreses de consultoria i desenvolupament de programari lliure solen basar el seu negoci en la venda de serveis (de selecció, d'integració i implementació, de suport i manteniment, de formació, d'oferiment de garanties, etc.).
 
-. *Comunitats:* els drets concedits per les llicències permeten l'ús intensiu i la difusió massiva del programari lliure a través de les xarxes d'internet (sobretot a partir de repositoris com SourceForge o GitHub) i fomenten la creació de comunitats al vol-tant dels projectes de programari lliure.
+. *Comunitats:* els drets concedits per les llicències permeten l'ús intensiu i la difusió massiva del programari lliure a través de les xarxes d'internet (sobretot a partir de repositoris com SourceForge o GitHub) i fomenten la creació de comunitats al voltant dels projectes de programari lliure.
 
 
-Per l'efecte de la distribució lliure del programari lliure, aquest sol ser gratuït: no serveix de res posar un preu, si demà qualsevol usuari pot legítimament publicar el _software_ (codi font i el binari) a internet per a la seva des-càrrega sense cost, per qualsevol internauta.
+Per l'efecte de la distribució lliure del programari lliure, aquest sol ser gratuït: no serveix de res posar un preu, si demà qualsevol usuari pot legítimament publicar el _software_ (codi font i el binari) a internet per a la seva descàrrega sense cost, per qualsevol internauta.
 Això no impedeix que hi hagi venedors que ofereixen programari lliure “de pagament”.
 Redhat Inc., per exemple, pot cobrar per la seva distribució de GNU/Linux (p. ex. Red Hat Enterprise) bàsicament perquè ofereix productes i serveis addicionals: garanties de funcionament, serveis d'ajuda i suport, aplicacions administratives o d'instal·lació.
 
@@ -135,7 +135,7 @@ Redhat Inc., per exemple, pot cobrar per la seva distribució de GNU/Linux (p. e
 ____
 Hauríem de compartir el que estem fent quan podem.
 Amb col·legues, amb usuaris, amb el món.
-Compartir codi, compartir dissenys, compartir idees, compartir intencions, com-partir fracassos.
+Compartir codi, compartir dissenys, compartir idees, compartir intencions, compartir fracassos.
 Quants més ulls miren un servei, millor serà — es detectaran els errors evidents, s'identificaran les millors alternatives, es puja el llistó.
 
 Molt del que estem fent és únicament possible degut al programari lliure i la generositat de la comunitat de disseny del web.
