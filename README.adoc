@@ -1,9 +1,10 @@
 // tag::metadata[]
-// IMPORTANT: el bloc següent (fins que aparegui "end::metadata[]") ha de ser
-// continuo (no posar cap línia en blanc).
-// OBLIGATORI. Asciidoctor suporta una etiqueta d'idioma,
+// IMPORTANT: the following block (until "end::metadata[]" appears) must be
+// contiguous (no blank lines).
+//
+// MANDATORY. A language label supported by Asciidoctor,
 // https://asciidoctor.org/docs/user-manual/#customizing-labels
-:lang: en
+:lang: ca
 //
 // OBLIGATORI. Versió numèrica en format X.Y.Z, on X, Y i Z són nombres,
 // i Z és opcional.
@@ -11,22 +12,19 @@
 //
 // OBLIGATORI. URL pointing to a Git repository with the source code of the
 // document. Something like 'https://github.com/USERNAME/REPONAME'.
-:_public_repo_url: https://github.com/AjuntamentdeBarcelona/sobirania-tec-bcn-ca
+:_public_repo_url: https://github.com/AjuntamentdeBarcelona/tech-sovereignty-guide-bcn-ca
 //
 // OBLIGATORI.
 :_url: https://ethical-digital-standards-bcn.netlify.com/
 //
 // OBLIGATORI. Títol del document. En el format web, apareix com a capçalera de nivell 1.
 // En format PDF, apareix a la portada.
-:_title: Sobirania Tecnològica
+:_title: Sobirania tecnològica
 //
 // OPCIONAL. Si apareix, ha de començar amb ": " (dos punts seguit d'un esai en blanc).
 // En el format web, apareix com part de la mateixa capçalera de nivell 1 que el títol.
 // En el format PDF, apareix a la portada, just després del títol.
 :_subtitle:
-//
-// Normalment no és necessari modificar aquest camp.
-:doctitle: {_title}{_subtitle}
 //
 // OPTIONAL. Comma-separated list of names.
 :_contributors:
@@ -41,10 +39,10 @@
 :revdate: {docdate}
 //
 // OBLIGATORI.
-:authors: Francesca Bria, Paco Rodríguez, Malcolm Bain, Joan Batlle, Ana Bastida Vila, Xabier Barandiaran Fernández, Marius Boada Pla, Guillem Marpons, Xavier Roca Vilalta, Xavier Bes Segovia, Josep Carles Collazos, Joan Domènech Bas, Oscar Sanz García, Carlos Echevarría Meseguer, LLuís Girona Frisach, Anna Majó Crespo, Tomás Gea Calza, Javier Ruiz, Gemma Galdon, John Michaelides, Esther Bretschneider.
+:authors: Francesca Bria, Paco Rodríguez, Malcolm Bain, Joan Batlle, Ana Bastida Vila, Xabier Barandiaran Fernández, Marius Boada Pla, Guillem Marpons, Xavier Roca Vilalta, Xavier Bes Segovia, Josep Carles Collazos, Joan Domènech Bas, Oscar Sanz García, Carlos Echevarría Meseguer, LLuís Girona Frisach, Anna Majó Crespo, Tomás Gea Calza, Javier Ruiz, Gemma Galdon, John Michaelides, Esther Bretschneider
 //
 // OBLIGATORI. Resum dels continguts del document. Correspondria al "abstract" en una publicació acadèmica.
-:_summary: Implementació pràctica de sobirania tecnològica per a participants i interessats dels serveis digitals de l'Ajuntament de Barcelona.
+:_summary: Implementació pràctica de la sobirania tecnològica per a participants i interessats dels serveis digitals de l'Ajuntament de Barcelona.
 //
 // OBLIGATORI. Llista de termes separada per comes que permeten trobar el document.
 // En format web, aquests termes estan integrats al SEO enabling metadata.
