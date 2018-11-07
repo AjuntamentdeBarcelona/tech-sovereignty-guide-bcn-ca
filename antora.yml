@@ -1,6 +1,6 @@
-name: tech-practices
-title: Code of Technological Practices
+name: ca/tech-sovereignty
+title: Sobirania tecnològica
 version: 0.1
-start_page: ROOT:introduccio.adoc
+start_page: ROOT:introduction.adoc
 nav:
 - modules/ROOT/nav.adoc
