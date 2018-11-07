@@ -26,17 +26,17 @@ endif::[]
 // (3/4) ADD BELOW THE LIST OF REGULAR CHAPTERS OR SECTIONS. IMPORTANT: PUT A
 // BLANK LINE BETWEEN INCLUDES.
 
-include::introduccio.adoc[]
+include::introduction.adoc[]
 
-include::principis.adoc[]
+include::general-principles.adoc[]
 
-include::programari-lliure.adoc[]
+include::free-software.adoc[]
 
-include::administracio-publica.adoc[]
+include::public-administration.adoc[]
 
-include::interoperabilitat.adoc[]
+include::interoperability.adoc[]
 
-include::politica.adoc[]
+include::policy.adoc[]
 
 // (4/4) ADD BELOW THE LIST OF APPENDIXES. IMPORTANT: PUT A BLANK LINE BETWEEN
 // INCLUDES.
