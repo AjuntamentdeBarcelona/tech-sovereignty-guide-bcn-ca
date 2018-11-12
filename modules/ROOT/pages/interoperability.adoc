@@ -1,13 +1,7 @@
 = Interoperabilitat, formats i estàndards oberts
-:experimental:
-:icons: font
-:page-partial:
-:source-highlighter: highlightjs
-
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
-
 include::{partialsdir}/README.adoc[tag=metadata]
 
 La interoperabilitat és la capacitat de diferents sistemes digitals, possiblement de diferents proveïdors, de funcionar conjuntament i compartir informació sense obstacles tècnics o jurídics.

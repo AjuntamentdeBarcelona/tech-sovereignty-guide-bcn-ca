@@ -1,13 +1,7 @@
 = Principis generals de sobirania tecnològica
-:experimental:
-:icons: font
-:page-partial:
-:source-highlighter: highlightjs
-
 ifndef::env-site,env-github[]
 include::_attributes.adoc[]
 endif::[]
-
 include::{partialsdir}/README.adoc[tag=metadata]
 
 El 6 d'octubre de 2016 la comissionada de Tecnologia i Innovació Digital va presentar el Pla Barcelona Ciutat Digital 2017–2020: transició cap a la sobirania tecnològica, la missió de la qual és “resoldre els reptes de la ciutat i de les persones a través d'un ús més democràtic de la tecnologia.
