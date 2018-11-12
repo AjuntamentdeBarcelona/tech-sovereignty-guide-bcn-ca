@@ -6,7 +6,7 @@ include::{partialsdir}/README.adoc[tag=metadata]
 
 == Objectiu
 
-Aquest document constitueix un document de suport per al xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Codi de Pràctiques Tecnològiques] que implementa de manera pràctica el concepte de la *sobirania tecnològica*, expandint els principis que guien la nova direcció de l'Institut Municipal d'xref:{lang}/glossary:ROOT:glossary.adoc#imi[Informàtica de Barcelona (IMI)] en matèria de tecnologia i innovació: interoperabilitat, agilitat, reutilització, ètica i obertura de coneixements i tecnologies.
+Aquest document constitueix un document de suport per al xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Codi de Pràctiques Tecnològiques] que implementa de manera pràctica el concepte de la *sobirania tecnològica*, expandint els principis que guien la nova direcció de l'xref:{lang}/glossary:ROOT:glossary.adoc#imi[Institut Municipal d'Informàtica de Barcelona (IMI)] en matèria de tecnologia i innovació: interoperabilitat, agilitat, reutilització, ètica i obertura de coneixements i tecnologies.
 
 Aquest document pretén contribuir a què l'IMI posi en pràctica la línia estratègica de l'Ajuntament de Barcelona que consisteix a incorporar *les tecnologies obertes i el programari* *lliure* en la major part dels seus serveis i processos tecnològics. 
 Aquest principi de sobirania tecnològica, juntament amb la *metodologia àgil de desenvolupament de serveis i la gestió responsable de dades*, compon la visió a mitjà termini per a la transformació digital àgil pública a la ciutat de Barcelona.
