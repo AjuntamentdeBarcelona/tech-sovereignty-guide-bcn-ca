@@ -117,7 +117,7 @@ En disposar del codi font de les aplicacions de l'Ajuntament juntament amb els d
 Així mateix, un sistema basat en programari lliure és particularment idoni quan es construeixen serveis que seran utilitzats per diverses entitats municipals i puguin ser compartits amb altres administracions, així com amb una comunitat més àmplia d'usuaris.
 L'accés públic al codi font també és una garantia de transparència per a sistemes particularment importants o sensibles, com per exemple sistemes de votació electrònica o de càlcul d'impostos.
 
-Dins d'aquestes línies generals, els principals elements d'aquesta política, recollits en el xref:tech-practices:ROOT:aim-and-scope.adoc[Codi de pràctiques tecnològiques], s'exposen a continuació.
+Dins d'aquestes línies generals, els principals elements d'aquesta política, recollits en el xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Codi de pràctiques tecnològiques], s'exposen a continuació.
 Comentarem cada element amb més detall, aportant explicacions i orientacions per a la seva implementació.
 
 === Directrius generals
@@ -130,7 +130,7 @@ Els principis bàsics de programari lliure de l'IMI per complir els principis de
 . Amb aquest objectiu, els projectes de desenvolupament interns es basaran per defecte en tecnologies obertes que permetin que el producte final sigui alliberat.
 . L'ús del programari lliure es farà de manera progressiva per a tots els sistemes i aplicacions municipals a mesura que s'implementi el Pla de migració a programari lliure de l'Ajuntament.
 
-Aquests principis es concreten en les següents directrius recollides en el xref:tech-practices:ROOT:aim-and-scope.adoc[Codi de pràctiques tecnològiques]:
+Aquests principis es concreten en les següents directrius recollides en el xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Codi de pràctiques tecnològiques]:
 
 [.policy]
 .Adquisició
