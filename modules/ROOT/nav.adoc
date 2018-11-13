@@ -14,4 +14,4 @@ include::{partialsdir}/README.adoc[tag=metadata]
 
 .$$BOTTOM
 * xref:{lang}/glossary:ROOT:glossary.adoc[Glossari de les guies]
-// * link:{attachmentsdir}/barcelona_tech_sovereignty_{revnumber}.{lang}.pdf[Download PDF]
+* link:{attachmentsdir}/barcelona_tech_sovereignty_{revnumber}.{lang}.pdf[Descarregar el PDF]
