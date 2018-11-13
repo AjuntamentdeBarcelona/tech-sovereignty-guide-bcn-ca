@@ -1,3 +1,9 @@
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+.$$MAIN
 * xref:introduction.adoc[Introducció i context]
 * xref:general-principles.adoc[Principis generals de sobirania tenològica]
 * xref:free-software.adoc[Programari Lliure]
@@ -5,4 +11,7 @@
 * xref:interoperability.adoc[Interoperabilitat, format i estàndards oberts]
 * xref:policy.adoc[Política sobre la sobirania tecnològica i directrius per la seva implementació]
 * xref:references.adoc[Referències]
-//* xref:glossary:ROOT:glossary.adoc[Glossari]
+
+.$$BOTTOM
+* xref:{lang}/glossary:ROOT:glossary.adoc[Glossari de les guies]
+// * link:{attachmentsdir}/barcelona_tech_sovereignty_{revnumber}.{lang}.pdf[Download PDF]
