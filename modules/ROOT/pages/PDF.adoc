@@ -1,30 +1,35 @@
-// (1/4) CHANGE TOC POSITION AND LEVELS, IF NEEDED. ALSO :sectnums:
-ifndef::env-site,env-github[]
-include::_attributes.adoc[]
-endif::[]
-
-include::{partialsdir}/README.adoc[tag=metadata]
-
-ifndef::env-site,env-github[]
-:toc: left
-endif::[]
-:toclevels: 2
-
 = {doctitle}
+include::{partialsdir}/README.adoc[tag=metadata]
+:doctitle: {_title}
+:page-layout: pdf
+:toc: macro
+:revdate: {localdatetime}
 
-:sectnums!:
+// [.my-authors-class]
+Autors: {authors}
+
+[.my-revnumber-class]#v{revnumber}#, [.my-revdate-class]#{revdate}#
+
+
+[.page-second]
+--
+[discrete.no-toc]
+=== Resum
 
 [abstract]
 {_summary}
+--
+
+:toclevels: 3
+toc::[]
 
 :leveloffset: +1
-// (2/4) ADD BELOW THE LIST OF *UNNUMBERED* (e.g. PREAMBLE) CHAPTERS OR
-// SECTIONS. IMPORTANT: PUT A BLANK LINE BETWEEN INCLUDES.
 
+:!sectnums:
+
+// Non-numbered sections here
 
 :sectnums:
-// (3/4) ADD BELOW THE LIST OF REGULAR CHAPTERS OR SECTIONS. IMPORTANT: PUT A
-// BLANK LINE BETWEEN INCLUDES.
 
 include::introduction.adoc[]
 
@@ -38,7 +43,11 @@ include::interoperability.adoc[]
 
 include::policy.adoc[]
 
-// (4/4) ADD BELOW THE LIST OF APPENDIXES. IMPORTANT: PUT A BLANK LINE BETWEEN
-// INCLUDES.
+[appendix]
+include::references.adoc[]
 
-include::referencies.adoc[]
+
+:!sectnums:
+
+[.discrete.page-end-notes]
+= Notes
