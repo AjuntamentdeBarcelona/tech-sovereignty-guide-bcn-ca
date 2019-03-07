@@ -6,7 +6,7 @@ include::{partialsdir}/README.adoc[tag=metadata]
 
 == Principis i directrius
 
-La política referent a la sobirania tecnològica de l'Ajuntament es basa en els principis i directrius indicats en el Pla Barcelona Digital 2017–2020: Transició cap a la sobirania tecnològica, els estàndards de serveis digitals i el Codi de pràctiques tecnològiques.
+La política referent a la sobirania tecnològica de l'Ajuntament es basa en els principis i directrius indicats en el Pla Barcelona Digital 2017–2020: Transició cap a la sobirania tecnològica, els estàndards de serveis digitals i el xref:{lang}/tech-practices:ROOT:aim-and-scope.adoc[Codi de pràctiques tecnològiques].
 
 En línies generals, aquests principis consisteixen en:
 
@@ -44,7 +44,7 @@ Es poden donar dues situacions diferents:
 1.  En cas que una necessitat específica d'interoperabilitat quedi coberta per un estàndard obert acceptat internacionalment, els plecs de contractació esmentaran aquest estàndard pel seu nom i versió.
 2.  Quan una necessitat específica d'interoperabilitat no pugui ser resolta per un estàndard existent, es donarà en els documents tècnics que acompanyen els plecs de contractació una especificació completa de les dades, els protocols, les interfícies, els formats o els processos que s'utilitzaran.
 Aquesta especificació ha de permetre la seva implementació sense recórrer a productes o proveïdors específics.
-e.  Com a cas concret de desplegament d'aquestes directrius d'interoperabilitat, vegeu per exemple la Política de gestió documental, (a http://ajuntament.barcelona.cat/arxiumunicipal/sites/default/files/InstruccioPoliticaGD_cat.pdf)
+e.  Com a cas concret de desplegament d'aquestes directrius d'interoperabilitat, vegeu per exemple la http://hdl.handle.net/11703/84149[Política de gestió documental].
 ****
 
 [.policy]
