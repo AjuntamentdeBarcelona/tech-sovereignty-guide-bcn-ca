@@ -55,7 +55,7 @@
 // OBLIGATORI. When the document is not in its 1.0 release, yet, we can write "WE
 // URGE YOU NOT TO CITE THIS YET UNTIL REVISION 1.0" Variables like {_title},
 // {authors}, {_subtitle}, {revnumber} or {docyear} can be used here.
-:_citation: {authors}, {docyear}, {_title}
+:_citation: {authors}. {docyear}, {_title}
 //
 // OBLIGATORI. Termes legals pels quals aquest document pot ser distribuït i/o modificat.
 // Normalment no és necessari modificar el valor inicials d'aquest camp.
